@@ -1,13 +1,6 @@
 <?php
-session_start();
-if(isset($_SESSION['loginID']))
-   echo "Your USERID is " . $_SESSION['loginID'] . "</br> 
-   You are logged in as ". $_SESSION['loginName'];
+require 'session_yourlogin.php';
 ?>
-
-
-
-
 
 
 <!doctype html>
@@ -16,7 +9,7 @@ if(isset($_SESSION['loginID']))
     <meta charset="utf-8" />
     <title>Gangnam Style</title>
 	<link rel="shortcut icon" href="favicon.ico"/>
-	<link rel="stylesheet" type="text/css" href="popdata/pop_page.css">
+	<link rel="stylesheet" type="text/css" href="popdata/stylesheets/style.css">
 	<!-- this pop's vars-->
 	<script src="popdata/GangnamStyle/GangnamStyle.js"></script>
 

@@ -1,0 +1,12 @@
+2014-05-17 12:14:43    create stylesheets/style.css 
+2014-05-17 12:20:10     error sass/style.scss (Line 35: Invalid CSS after "...olor 1, color2 ": expected ")", was "[position] [, o...")
+2014-05-17 12:20:10 overwrite stylesheets/style.css 
+2014-05-17 12:21:06 overwrite stylesheets/style.css 
+2014-05-17 12:21:18 identical stylesheets/style.css 
+2014-05-17 12:22:07 identical stylesheets/style.css 
+2014-05-17 12:23:37 overwrite stylesheets/style.css 
+2014-05-17 12:23:50 overwrite stylesheets/style.css 
+2014-05-17 12:27:45 overwrite stylesheets/style.css 
+2014-05-17 12:28:20 overwrite stylesheets/style.css 
+2014-05-17 12:30:23 overwrite stylesheets/style.css 
+2014-05-17 12:30:31 overwrite stylesheets/style.css 

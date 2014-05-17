@@ -1,16 +1,5 @@
 <?php
-/*** mysql hostname ***/
-$db_hostname = 'localhost';
-
-/*** mysql username ***/
-$db_username = 'omnipwn';
-
-/*** mysql password ***/
-$db_password = 'godaddyIllus22';
-
-$db_name = 'popcorn';
-
-
+require 'db_config.php';
 
 try {
 	$user_name = $_GET['username'];
@@ -33,11 +22,10 @@ try {
 
     /*** close the database connection ***/
     $dbh = null;
-    }
-catch(PDOException $e)
-    {
+}
+catch(PDOException $e){
     echo $e->getMessage();
-	}
+}
 	
 	
 	

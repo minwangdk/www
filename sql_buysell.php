@@ -1,16 +1,6 @@
 <?php
-session_start();
-if(isset($_SESSION['loginID']))
-   echo "Your USERID is " . $_SESSION['loginID'] . "</br> 
-   You are logged in as ". $_SESSION['loginName'] . "</br>";
-?>
-<?php
-
-/*** mysql server info ***/
-$db_hostname = 'localhost';
-$db_username = 'omnipwn';
-$db_password = 'godaddyIllus22';
-$db_name = 'popcorn';
+require 'session_yourlogin.php';
+require 'db_config.php';
 
 //get data from form page
 $id = $_SESSION['loginID'];
@@ -129,9 +119,7 @@ try {
 		echo 'You dont have any shares in this popstock to sell';
 	}
 	
-	?>
-	<pre><? var_dump($sqlbuysell); ?></pre>
-	<?
+	
 	
 
 

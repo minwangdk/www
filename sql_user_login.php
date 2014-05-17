@@ -1,21 +1,7 @@
 <?php
 session_start();  
 
-?>
-
-
-
-<?php
-/*** mysql hostname ***/
-$db_hostname = 'localhost';
-
-/*** mysql username ***/
-$db_username = 'omnipwn';
-
-/*** mysql password ***/
-$db_password = 'godaddyIllus22';
-
-$db_name = 'popcorn';
+require 'db_config.php';
 
 
 try {
@@ -51,12 +37,6 @@ try {
 	if(isset($_SESSION['loginName']))
 	echo "Your USERID is " . $_SESSION['loginID'] . "</br>
 	You are logged in as ". $_SESSION['loginName'];
-	
-	?>
-	<!-- <pre><? var_dump($result); ?></pre> -->
-	<?
-	
-
 
     /*** close the database connection ***/
     $dbh = null;
