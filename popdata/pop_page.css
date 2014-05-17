@@ -1,0 +1,31 @@
+#poptitle {
+	text-align: center;
+}
+#popvideo {
+	width: 560px;
+	height: 315px; 
+	margin: 0 auto;
+}
+nav {
+background: vendor-type-gradient( start / position , shape size, color 1, color2 [position] [, other colors / positions] );
+/*** real example **/
+ 
+background: -moz-linear-gradient( top left, red, #c10000, #ae0000 );
+ 
+background: -webkit-linear-gradient( top left, red, #c10000, #ae0000 );
+ 
+background: -o-linear-gradient( top left, red, #c10000, #ae0000 );
+
+ 
+
+background: -khtml-linear-gradient( top left, red, #c10000, #ae0000 );
+
+ 
+
+background: -ms-linear-gradient( top left, red, #c10000, #ae0000 );
+
+ 
+
+background: linear-gradient( top left, red, #c10000, #ae0000 );
+
+}
