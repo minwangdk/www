@@ -1,0 +1,116 @@
+//constants
+@import "compass";
+@import "compass/css3";
+@import "h5bp";
+//fonts
+@font-face {
+    font-family: 'open_sansbold';
+    src: local('..\vendor\opensans\opensans-bold-webfont.eot');
+    src: local('..\vendor\opensans\opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         local('..\vendor\opensans\opensans-bold-webfont.woff') format('woff'),
+         local('..\vendor\opensans\opensans-bold-webfont.ttf') format('truetype'),
+         local('..\vendor\opensans\opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+//mixins
+@mixin popfont{
+  font-family: 'open_sansbold', sans-serif;  
+}
+
+@mixin noSelect{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+//CSS
+
+body{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;  
+  min-width: 800px;
+}
+
+//header and login buttons
+header {
+  max-height: 120px;
+  border: 2px solid;
+  border-radius: 5px;
+}   
+
+#logo{
+  width: 218px;
+  height: 116px;
+  @include background(linear-gradient(#004875, #00223f));
+  background-repeat:no-repeat;
+  margin: 0;     
+  border: 2px solid;
+  border-right: 3px solid;
+  @include border-left-radius(5x);
+  border-color: #0d6681;
+}
+
+#loginp {
+  color: orange;
+  display: inline;
+  float: right;
+  @include popfont;
+  font-size: 18px;
+  margin: 6px -3px 0;
+  @include noSelect;
+  cursor: none;
+}
+
+label.loginbtns{
+  display: inline;
+  float: right;
+  margin: 1px 0px;
+  @include popfont;
+  color: #0793a7;
+  text-shadow: 1px 2px 8px #7796b4;
+  font-size: 16px;
+  padding: 8px;
+  @include noSelect;
+  
+}
+
+label.loginbtns:hover{
+  color: #70d8ee;
+  cursor: pointer;
+}
+
+input[type=radio] {
+  display:none;
+}
+
+//popuplogin
+
+.logbox {
+  display: none;
+  width: 50%;
+  height: 30%;
+  min-width: 400px;
+  min-height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  @include translate(-50%, -50%);
+ 
+  @include background(linear-gradient(#004875, #00223f));
+}
+
+#login:checked ~ .logbox {
+  display: block;
+}
+  
+
+
+
+
