@@ -4,35 +4,79 @@
 	<meta charset='UTF-8'>
 	<title>Gangnam Style</title>
 	<link type='text/css' rel='stylesheet' href='stylesheets/header.css'>
+	<script type='text/javascript'src='lib/jquery-1.11.0.min.js'></script>
+	<script type='text/javascript'src='header.js'></script>	
+	
 </head>
+
 <body>
+<div class='mask hidden'></div>
+<!--facebook login sdk-->
+<script src='lib/fbloginSDK.js'></script>
 <header>
-	<input id='login' type='radio' name='loginreg'>
-  	<label class='loginbtns' for='login'>Login</label>
 
-	<p id='loginp'>|</p>
+	<a class='noSelect' id='logo' href='../index.php'><img src='popstock-logo2.png' alt='logo' ></a>
+	
 
- 	<input id='signup' type='radio' name='loginreg'>
-	<label class='loginbtns' for='signup'>Signup</label>
+	<div class='whitebox'>
+		<div>
+			<p>|</p>
+			<a id='signupbtn' href='../user_create_form.php'>Signup</a>	 	
+			<a id='loginbtn' href='../user_login_form.php'>Login</a>
+		</div>
+	</div>
+	
 
 	
-	<div id='logo'>
-		<a href='../index.php'><img src='popstock-logo2.png' alt='logo' width='220' height='108'>
-		</a>
-	</div>
+	
+	
 
-	<div class='logbox'>
-	<form name='input' action='sql_user_login.php' method='get'>
-	<label>Username </label><input type='text' name='username'></br>
-	<label>Password </label><input type='password' name='password'>
+	<div class='logbox hidden'>
+		<h2>LOGIN AND PLAY</h2>
+		<form name='input' action='../sql_user_login.php' method='get'>
+		
+			<label class='loginlabel' for='username'>Username: </label>
+			<input class='logininput' name='username' type='text' autofocus required>
+		
+		
+		
+			<label class='loginlabel' for='password'>Password: </label>
+			<input class='logininput' name='password' type='password' required>
+			
+			
+			
+			<div class='checkbox'>
+				<input id='rememberinput' type='checkbox' name='remember'> 
+        		<label id='rememberlabel' for='rememberinput'>Stay logged in</label>
+			</div>
+	        
+		    
+			
+			
+			<p class='popuplinks'>
+				<a id='popupsignup' href='../user_create_form.php'>Signup now</a>
+				|
+				<a id='forgotpw' href='.../forgotpw.php'>What's my password?</a>
+			</p>
 
-		<div class='checkbox'>
-	        <input id='remember' type='checkbox'> <label for=
-	        'remember'>Remember me on this computer</label>
-	    </div>
+			<input id='loginsubmit' type='submit' value='Login'>
 
-	<input type='submit' value='Submit'>
+		</form>
+		
+		
 
+
+	
+		
+		<div id='loginfooter'>
+			<p>Or login with facebook</p>
+			<!-- facebook login button -->
+			<div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="true">
+			</div>
+		</div>
+		
+			
+		
 	</div>
 	
 	
@@ -40,11 +84,6 @@
 	
 	
 </header>
-
-
-	
-	
-
 
 
 </body>

@@ -6,7 +6,22 @@
   font-style: normal;
 }
 
-/* line 33, ../sass/header.scss */
+/* line 32, ../sass/header.scss */
+.hidden {
+  display: none;
+}
+
+/* line 35, ../sass/header.scss */
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 47, ../sass/header.scss */
 body {
   width: 80%;
   margin-left: auto;
@@ -15,43 +30,79 @@ body {
   min-width: 800px;
 }
 
-/* line 42, ../sass/header.scss */
+/* line 56, ../sass/header.scss */
 header {
-  max-height: 120px;
-  border: 2px solid;
-  border-radius: 5px;
-}
-
-/* line 48, ../sass/header.scss */
-#logo {
-  width: 218px;
-  height: 116px;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #004875), color-stop(100%, #00223f));
-  background: -webkit-linear-gradient(#004875, #00223f);
-  background: -moz-linear-gradient(#004875, #00223f);
-  background: -o-linear-gradient(#004875, #00223f);
-  background: linear-gradient(#004875, #00223f);
+  position: relative;
+  height: 90px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #008add), color-stop(100%, #00559b));
+  background: -webkit-linear-gradient(#008add, #00559b);
+  background: -moz-linear-gradient(#008add, #00559b);
+  background: -o-linear-gradient(#008add, #00559b);
+  background: linear-gradient(#008add, #00559b);
   background-repeat: no-repeat;
-  margin: 0;
-  border: 2px solid;
-  border-right: 3px solid;
-  -moz-border-radius-topleft: 5x;
-  -webkit-border-top-left-radius: 5x;
-  border-top-left-radius: 5x;
-  -moz-border-radius-bottomleft: 5x;
-  -webkit-border-bottom-left-radius: 5x;
-  border-bottom-left-radius: 5x;
-  border-color: #0d6681;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 20px 0 0;
 }
-
-/* line 60, ../sass/header.scss */
-#loginp {
-  color: orange;
+/* line 65, ../sass/header.scss */
+header .whitebox {
+  position: absolute;
+  right: 0px;
+  left: 205px;
+  margin: 2px 2px 0;
+  height: 86px;
+  background: white;
+}
+/* line 73, ../sass/header.scss */
+header .whitebox div {
+  display: inline-block;
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  top: 0px;
+  right: 0px;
+  text-align: right;
+}
+/* line 81, ../sass/header.scss */
+header .whitebox div a {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  margin: 0 0 0 -6px;
+  padding: 10px;
+  font-family: 'open_sansbold', sans-serif;
+  color: #0793a7;
+  text-shadow: 1px 2px 8px #7796b4;
+  font-size: 16px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 93, ../sass/header.scss */
+header .whitebox div a:hover {
+  color: #70d8ee;
+  cursor: pointer;
+}
+/* line 97, ../sass/header.scss */
+header .whitebox div a:active {
+  color: white;
+  background: #70d8ee;
+}
+/* line 101, ../sass/header.scss */
+header .whitebox div .loginbtnclicked {
+  color: white;
+  background: #70d8ee;
+}
+/* line 105, ../sass/header.scss */
+header .whitebox div p {
+  margin: 0 -69px 0;
   display: inline;
-  float: right;
+  color: orange;
   font-family: 'open_sansbold', sans-serif;
   font-size: 18px;
-  margin: 6px -3px 0;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -61,58 +112,154 @@ header {
   cursor: none;
 }
 
-/* line 71, ../sass/header.scss */
-label.loginbtns {
-  display: inline;
-  float: right;
-  margin: 1px 0px;
+/* line 123, ../sass/header.scss */
+#logo {
+  position: absolute;
+  bottom: -7px;
+  left: -6px;
+}
+
+/* line 131, ../sass/header.scss */
+.logbox {
+  width: 400px;
+  height: 300px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background: white;
+  box-shadow: 10px 10px 5px #888888;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-family: 'open_sansbold', sans-serif;
-  color: #0793a7;
-  text-shadow: 1px 2px 8px #7796b4;
+  letter-spacing: 1px;
+  padding: 5px 20px;
+  z-index: 9;
+}
+/* line 144, ../sass/header.scss */
+.logbox h2 {
+  font-size: 15px;
+  color: #202020;
+  padding: 0 0 8px 0;
+  border-bottom: 2px solid #DFDFDF;
+}
+/* line 151, ../sass/header.scss */
+.logbox label {
+  color: #2E2E2E;
+}
+/* line 155, ../sass/header.scss */
+.logbox .loginlabel {
+  display: inline-block;
   font-size: 16px;
-  padding: 8px;
+  width: 80px;
+}
+/* line 161, ../sass/header.scss */
+.logbox input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #DDF9F9 inset;
+}
+/* line 165, ../sass/header.scss */
+.logbox .logininput {
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 16px;
+  height: 32px;
+  width: 286.5px;
+  border-top: 1px solid #C9C9C9;
+  border-left: 1px solid #BEBEBE;
+  padding: 0 10px;
+  margin: 5px 0 0 5px;
+}
+/* line 177, ../sass/header.scss */
+.logbox .checkbox {
+  display: inline-block;
+  margin: 7px 0 0 65px;
+}
+/* line 180, ../sass/header.scss */
+.logbox .checkbox input {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+/* line 185, ../sass/header.scss */
+.logbox .checkbox label {
+  letter-spacing: normal;
+  font-size: 13px;
+  padding: 7px 0;
+  border-radius: 5px;
+}
+/* line 194, ../sass/header.scss */
+.logbox .checkbox:hover label {
+  background: #FCE383;
+}
+/* line 200, ../sass/header.scss */
+.logbox .popuplinks {
+  margin: 0 0 0 35px;
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: normal;
+  font-family: 'open_sansbold', sans-serif;
+  cursor: default;
+  color: #8B8B8B;
+}
+/* line 208, ../sass/header.scss */
+.logbox .popuplinks a {
+  text-decoration: none;
+  color: #8B8B8B;
+}
+/* line 214, ../sass/header.scss */
+.logbox #loginsubmit {
+  display: inline-block;
+  width: 120px;
+  height: 32px;
+  background: #0D65A6;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: none;
+  margin: 12px 85px;
+}
+/* line 229, ../sass/header.scss */
+.logbox #loginfooter {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  bottom: 0px;
+  margin: 0 -20px;
+  color: #4a66a0;
+  background: #e9eaed;
+}
+/* line 235, ../sass/header.scss */
+.logbox #loginfooter p {
+  display: inline-block;
+  margin: 30px 20px 0 90px;
+}
+/* line 242, ../sass/header.scss */
+.logbox #loginfooter .fb-login-button {
+  display: inline;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+/* line 252, ../sass/header.scss */
+.mask {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-
-/* line 84, ../sass/header.scss */
-label.loginbtns:hover {
-  color: #70d8ee;
-  cursor: pointer;
-}
-
-/* line 89, ../sass/header.scss */
-input[type=radio] {
-  display: none;
-}
-
-/* line 95, ../sass/header.scss */
-.logbox {
-  display: none;
-  width: 50%;
-  height: 30%;
-  min-width: 400px;
-  min-height: 400px;
+  display: fixed;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #004875), color-stop(100%, #00223f));
-  background: -webkit-linear-gradient(#004875, #00223f);
-  background: -moz-linear-gradient(#004875, #00223f);
-  background: -o-linear-gradient(#004875, #00223f);
-  background: linear-gradient(#004875, #00223f);
-}
-
-/* line 109, ../sass/header.scss */
-#login:checked ~ .logbox {
-  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: fixed;
+  z-index: 1;
+  background: #72A7E7;
+  opacity: 0.4;
 }
