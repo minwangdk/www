@@ -1675,3 +1675,256 @@
 2014-05-31 03:46:25 overwrite stylesheets/header.css 
 2014-05-31 03:47:09 identical stylesheets/header.css 
 2014-05-31 03:47:15 identical stylesheets/header.css 
+2014-06-05 04:44:29     error sass/header.scss (Line 16: Undefined mixin 'background'.)
+2014-06-05 04:44:29 overwrite stylesheets/header.css 
+2014-06-05 04:44:33 overwrite stylesheets/style.css 
+2014-06-05 04:44:57     error sass/header.scss (Line 1: File to import not found or unreadable: fonts.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-05 04:44:57 overwrite stylesheets/header.css 
+2014-06-05 04:46:01     error sass/header.scss (Line 1: File to import not found or unreadable: fonts.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-05 04:46:01 identical stylesheets/header.css 
+2014-06-05 04:46:03 identical stylesheets/style.css 
+2014-06-05 04:46:04     error sass/header.scss (Line 1: File to import not found or unreadable: fonts.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-05 04:46:04 identical stylesheets/header.css 
+2014-06-05 04:46:17     error sass/header.scss (Line 2: File to import not found or unreadable: base.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-05 04:46:17 overwrite stylesheets/header.css 
+2014-06-05 04:46:41     error sass/header.scss (Line 1: Invalid CSS after "@import ": expected file to import (string or url()), was "fonts;")
+2014-06-05 04:46:41 overwrite stylesheets/header.css 
+2014-06-05 04:46:56     error sass/header.scss (Line 1: File to import not found or unreadable: fonts.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-05 04:46:56 overwrite stylesheets/header.css 
+2014-06-05 04:47:09     error sass/header.scss (Line 1: File to import not found or unreadable: _fonts.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-05 04:47:09 overwrite stylesheets/header.css 
+2014-06-05 04:51:36 overwrite stylesheets/header.css 
+2014-06-05 04:52:24 overwrite stylesheets/header.css 
+2014-06-05 04:52:44 identical stylesheets/header.css 
+2014-06-05 05:17:05 overwrite stylesheets/style.css 
+2014-06-05 20:32:22    create stylesheets/stats.css 
+2014-06-05 22:54:55 overwrite stylesheets/stats.css 
+2014-06-05 22:56:52 overwrite stylesheets/stats.css 
+2014-06-05 22:58:39 overwrite stylesheets/stats.css 
+2014-06-05 22:58:56 overwrite stylesheets/stats.css 
+2014-06-05 22:59:54 overwrite stylesheets/stats.css 
+2014-06-05 23:01:31 overwrite stylesheets/stats.css 
+2014-06-05 23:01:36 overwrite stylesheets/stats.css 
+2014-06-05 23:02:01 overwrite stylesheets/stats.css 
+2014-06-05 23:02:07 identical stylesheets/stats.css 
+2014-06-05 23:02:13 identical stylesheets/stats.css 
+2014-06-05 23:02:53 overwrite stylesheets/stats.css 
+2014-06-05 23:04:09 overwrite stylesheets/stats.css 
+2014-06-05 23:04:24 overwrite stylesheets/stats.css 
+2014-06-05 23:04:44 overwrite stylesheets/stats.css 
+2014-06-05 23:05:05 overwrite stylesheets/stats.css 
+2014-06-05 23:05:36 overwrite stylesheets/stats.css 
+2014-06-05 23:05:47 overwrite stylesheets/stats.css 
+2014-06-05 23:05:58 overwrite stylesheets/stats.css 
+2014-06-05 23:06:43 overwrite stylesheets/stats.css 
+2014-06-05 23:07:05 overwrite stylesheets/stats.css 
+2014-06-05 23:08:27 overwrite stylesheets/stats.css 
+2014-06-05 23:12:25 overwrite stylesheets/stats.css 
+2014-06-05 23:13:00 overwrite stylesheets/stats.css 
+2014-06-05 23:13:10 overwrite stylesheets/stats.css 
+2014-06-05 23:13:32 overwrite stylesheets/stats.css 
+2014-06-05 23:13:49 overwrite stylesheets/stats.css 
+2014-06-05 23:13:55 overwrite stylesheets/stats.css 
+2014-06-05 23:15:35 overwrite stylesheets/stats.css 
+2014-06-05 23:15:40 overwrite stylesheets/stats.css 
+2014-06-05 23:15:57 overwrite stylesheets/stats.css 
+2014-06-05 23:16:08 overwrite stylesheets/stats.css 
+2014-06-05 23:16:17 overwrite stylesheets/stats.css 
+2014-06-05 23:16:31 overwrite stylesheets/stats.css 
+2014-06-05 23:28:55 overwrite stylesheets/stats.css 
+2014-06-06 00:18:41 overwrite stylesheets/stats.css 
+2014-06-06 00:18:51 overwrite stylesheets/stats.css 
+2014-06-06 00:19:19 overwrite stylesheets/stats.css 
+2014-06-06 00:19:58 overwrite stylesheets/stats.css 
+2014-06-06 01:58:55 overwrite stylesheets/stats.css 
+2014-06-06 02:00:21 overwrite stylesheets/stats.css 
+2014-06-06 02:02:26 overwrite stylesheets/stats.css 
+2014-06-06 02:02:54 overwrite stylesheets/stats.css 
+2014-06-06 02:05:39 overwrite stylesheets/stats.css 
+2014-06-06 02:05:47 overwrite stylesheets/stats.css 
+2014-06-06 02:07:37 overwrite stylesheets/stats.css 
+2014-06-06 02:07:44 identical stylesheets/stats.css 
+2014-06-06 02:07:59 overwrite stylesheets/stats.css 
+2014-06-06 02:08:30 overwrite stylesheets/stats.css 
+2014-06-06 02:09:19 overwrite stylesheets/stats.css 
+2014-06-06 02:10:24 overwrite stylesheets/stats.css 
+2014-06-06 02:10:44 overwrite stylesheets/stats.css 
+2014-06-06 02:10:53 overwrite stylesheets/stats.css 
+2014-06-06 02:11:05 overwrite stylesheets/stats.css 
+2014-06-06 02:11:45 overwrite stylesheets/stats.css 
+2014-06-06 02:11:57 overwrite stylesheets/stats.css 
+2014-06-06 02:12:08 overwrite stylesheets/stats.css 
+2014-06-06 02:12:50 overwrite stylesheets/stats.css 
+2014-06-06 02:12:59 overwrite stylesheets/stats.css 
+2014-06-06 02:13:13 overwrite stylesheets/stats.css 
+2014-06-06 02:14:47 overwrite stylesheets/stats.css 
+2014-06-06 02:14:55 identical stylesheets/stats.css 
+2014-06-06 02:15:02 overwrite stylesheets/stats.css 
+2014-06-06 02:15:10 overwrite stylesheets/stats.css 
+2014-06-06 02:15:22 overwrite stylesheets/stats.css 
+2014-06-06 02:15:56 overwrite stylesheets/stats.css 
+2014-06-06 02:16:13 overwrite stylesheets/stats.css 
+2014-06-06 02:16:26 overwrite stylesheets/stats.css 
+2014-06-06 02:16:35 overwrite stylesheets/stats.css 
+2014-06-06 02:17:03 overwrite stylesheets/stats.css 
+2014-06-06 02:17:23 overwrite stylesheets/stats.css 
+2014-06-06 02:17:35 overwrite stylesheets/stats.css 
+2014-06-06 02:17:58 overwrite stylesheets/stats.css 
+2014-06-06 02:18:22 overwrite stylesheets/stats.css 
+2014-06-06 02:19:32 overwrite stylesheets/stats.css 
+2014-06-06 02:19:55 overwrite stylesheets/stats.css 
+2014-06-06 02:20:48 overwrite stylesheets/stats.css 
+2014-06-06 02:21:32 overwrite stylesheets/stats.css 
+2014-06-06 02:21:49 overwrite stylesheets/stats.css 
+2014-06-06 02:22:27 overwrite stylesheets/stats.css 
+2014-06-06 02:23:01 overwrite stylesheets/stats.css 
+2014-06-06 02:23:20 overwrite stylesheets/stats.css 
+2014-06-06 02:25:31 overwrite stylesheets/stats.css 
+2014-06-06 02:41:02 overwrite stylesheets/stats.css 
+2014-06-06 02:42:12 identical stylesheets/stats.css 
+2014-06-06 02:43:06 overwrite stylesheets/stats.css 
+2014-06-06 02:44:03 overwrite stylesheets/stats.css 
+2014-06-06 02:44:28 overwrite stylesheets/stats.css 
+2014-06-06 03:01:59 overwrite stylesheets/stats.css 
+2014-06-06 03:02:50 overwrite stylesheets/stats.css 
+2014-06-06 03:03:19 overwrite stylesheets/stats.css 
+2014-06-06 03:03:43 overwrite stylesheets/stats.css 
+2014-06-06 03:18:41 overwrite stylesheets/stats.css 
+2014-06-06 03:19:13 overwrite stylesheets/stats.css 
+2014-06-06 18:13:51 overwrite stylesheets/stats.css 
+2014-06-06 18:16:00     error sass/stats.scss (Line 45: Invalid CSS after ".": expected class name, was "34 {")
+2014-06-06 18:16:00 overwrite stylesheets/stats.css 
+2014-06-06 18:16:28 overwrite stylesheets/stats.css 
+2014-06-06 18:16:41 overwrite stylesheets/stats.css 
+2014-06-06 18:16:52 overwrite stylesheets/stats.css 
+2014-06-06 18:17:11 overwrite stylesheets/stats.css 
+2014-06-06 18:20:26 overwrite stylesheets/stats.css 
+2014-06-06 22:10:55 overwrite stylesheets/stats.css 
+2014-06-06 22:28:14 overwrite stylesheets/stats.css 
+2014-06-06 22:28:24     error sass/stats.scss (Line 41: Invalid CSS after "		height 50px": expected "{", was ";")
+2014-06-06 22:28:24 overwrite stylesheets/stats.css 
+2014-06-06 22:28:32 overwrite stylesheets/stats.css 
+2014-06-06 22:30:58 overwrite stylesheets/stats.css 
+2014-06-06 22:31:23 overwrite stylesheets/stats.css 
+2014-06-06 22:33:17 overwrite stylesheets/stats.css 
+2014-06-06 22:33:36 identical stylesheets/stats.css 
+2014-06-06 22:34:48     error sass/stats.scss (Line 39: Invalid CSS after "	color:": expected pseudoclass or pseudoelement, was " #757575;")
+2014-06-06 22:34:48 overwrite stylesheets/stats.css 
+2014-06-06 22:34:55 overwrite stylesheets/stats.css 
+2014-06-06 22:36:08 overwrite stylesheets/stats.css 
+2014-06-06 22:36:18 overwrite stylesheets/stats.css 
+2014-06-06 22:36:54     error sass/stats.scss (Line 52: Invalid CSS after "		display:": expected expression (e.g. 1px, bold), was "}")
+2014-06-06 22:36:54 overwrite stylesheets/stats.css 
+2014-06-06 22:37:01 overwrite stylesheets/stats.css 
+2014-06-06 22:37:48 overwrite stylesheets/stats.css 
+2014-06-06 22:38:06 overwrite stylesheets/stats.css 
+2014-06-06 22:38:19 overwrite stylesheets/stats.css 
+2014-06-06 22:38:34 overwrite stylesheets/stats.css 
+2014-06-06 22:38:56 overwrite stylesheets/stats.css 
+2014-06-06 22:39:29 overwrite stylesheets/stats.css 
+2014-06-06 22:39:35 overwrite stylesheets/stats.css 
+2014-06-06 22:39:49 overwrite stylesheets/stats.css 
+2014-06-06 22:40:03 overwrite stylesheets/stats.css 
+2014-06-06 22:40:08 overwrite stylesheets/stats.css 
+2014-06-06 22:40:50 overwrite stylesheets/stats.css 
+2014-06-06 22:40:57 overwrite stylesheets/stats.css 
+2014-06-06 22:45:12 overwrite stylesheets/stats.css 
+2014-06-06 22:48:09 overwrite stylesheets/stats.css 
+2014-06-06 22:48:26 overwrite stylesheets/stats.css 
+2014-06-06 22:50:17 overwrite stylesheets/stats.css 
+2014-06-06 22:50:28 overwrite stylesheets/stats.css 
+2014-06-06 22:50:35 overwrite stylesheets/stats.css 
+2014-06-06 22:51:01 overwrite stylesheets/stats.css 
+2014-06-06 22:51:54 overwrite stylesheets/stats.css 
+2014-06-06 22:52:11 overwrite stylesheets/stats.css 
+2014-06-06 22:52:20 overwrite stylesheets/stats.css 
+2014-06-06 22:52:50 overwrite stylesheets/stats.css 
+2014-06-06 22:53:04 overwrite stylesheets/stats.css 
+2014-06-06 22:53:32 overwrite stylesheets/stats.css 
+2014-06-06 22:56:02 overwrite stylesheets/stats.css 
+2014-06-06 22:56:06 identical stylesheets/stats.css 
+2014-06-06 22:57:05 overwrite stylesheets/stats.css 
+2014-06-06 22:57:20 overwrite stylesheets/stats.css 
+2014-06-06 22:57:28 overwrite stylesheets/stats.css 
+2014-06-06 22:57:43 overwrite stylesheets/stats.css 
+2014-06-06 22:57:58 overwrite stylesheets/stats.css 
+2014-06-06 22:58:13 overwrite stylesheets/stats.css 
+2014-06-06 22:59:00 overwrite stylesheets/stats.css 
+2014-06-06 23:02:49 overwrite stylesheets/stats.css 
+2014-06-06 23:03:54 overwrite stylesheets/stats.css 
+2014-06-06 23:04:01 overwrite stylesheets/stats.css 
+2014-06-06 23:04:10 overwrite stylesheets/stats.css 
+2014-06-06 23:04:30 overwrite stylesheets/stats.css 
+2014-06-06 23:08:09 identical stylesheets/stats.css 

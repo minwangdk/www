@@ -1,0 +1,58 @@
+@import "partials/fonts";
+@import "partials/base";
+
+//CSS
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  min-width: 800px;
+}
+
+
+.stats {
+	@include popfont;
+	margin: 0 0 15px 0;
+	padding: 0;
+	li {			
+		list-style-type: none;
+		display: inline-block;
+		//background: grey;
+		height: auto;
+		width: auto;		
+		margin: 0 50px 0 0;
+	}
+	span {
+		font-weight: bold;
+	}	
+}
+
+#small_stats {
+	color: #646464;
+	font-size: 15px;
+	span {		
+		color: #4D4D4D;
+		display: block;
+		font-size: 30px;
+	}
+}
+#big_stats {	
+	color: #939393;
+	display: inline-block;
+	height: 50px;	
+	font-size: 14px;
+	li {
+		display: inline-block;
+	}
+	div {
+		display: inline;
+	}
+	span {
+		color: #909090;
+		vertical-align:middle;
+		font-size: 26px;
+		
+	}
+}
+

@@ -10,6 +10,7 @@ require 'session_yourlogin.php';
     <title>Gangnam Style</title>
 	<link rel="shortcut icon" href="favicon.ico"/>
 	<link rel="stylesheet" type="text/css" href="popdata/stylesheets/style.css">
+
 	<!-- this pop's vars-->
 	<script src="popdata/GangnamStyle/GangnamStyle.js"></script>
 
@@ -26,28 +27,28 @@ require 'session_yourlogin.php';
    
 </head>
 <body>
-
-
-	<header>   
-		<h1 id="poptitle">Gangnam Style</h1>
-	</header>
-
-	<nav role='navigation'>
-	  <ul>
-	    <li><a href="#">Home</a></li>
-	    <li><a href="#">About</a></li>
-	    <li><a href="#">Clients</a></li>
-	    <li><a href="#">Contact Us</a></li>
-	  </ul>
-	</nav>  
+<header>   
+	<h1 id="poptitle">Gangnam Style</h1>
+</header>
 
 
 
-	<!-- Video -->
-	<div id="popvideo">
-		<iframe width="560" height="315" src="//www.youtube.com/embed/9bZkp7q19f0" frameborder="0"></iframe>
-	</div>
 
+
+<!-- Video -->
+<div id="popvideo">
+	<iframe width="560" height="315" src="//www.youtube.com/embed/9bZkp7q19f0" frameborder="0"></iframe>
+</div>
+
+
+
+
+
+
+
+
+
+<div class='rickshawblock' style='display: none'>
 	<!-- Rickshaw Graph container-->
 	<div id="content">
 		<div id="chart">
@@ -71,7 +72,9 @@ require 'session_yourlogin.php';
 
 
 	<div id="buysell_echo">	
-	</div>
+	</div>  
+</div>
+	
 
 
 
