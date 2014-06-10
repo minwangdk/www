@@ -1928,3 +1928,844 @@ Load paths:
 2014-06-06 23:04:10 overwrite stylesheets/stats.css 
 2014-06-06 23:04:30 overwrite stylesheets/stats.css 
 2014-06-06 23:08:09 identical stylesheets/stats.css 
+2014-06-07 00:36:32 overwrite stylesheets/stats.css 
+2014-06-07 00:36:47 overwrite stylesheets/stats.css 
+2014-06-07 00:37:06 overwrite stylesheets/stats.css 
+2014-06-07 00:37:37 overwrite stylesheets/stats.css 
+2014-06-07 00:42:57 overwrite stylesheets/stats.css 
+2014-06-07 00:43:14 overwrite stylesheets/stats.css 
+2014-06-07 00:43:49 overwrite stylesheets/stats.css 
+2014-06-07 00:44:27 overwrite stylesheets/stats.css 
+2014-06-07 00:45:02 overwrite stylesheets/stats.css 
+2014-06-07 00:46:27 overwrite stylesheets/stats.css 
+2014-06-07 00:46:54 overwrite stylesheets/stats.css 
+2014-06-07 00:47:07 overwrite stylesheets/stats.css 
+2014-06-07 00:47:35 overwrite stylesheets/stats.css 
+2014-06-07 00:47:56 overwrite stylesheets/stats.css 
+2014-06-07 00:50:38 overwrite stylesheets/stats.css 
+2014-06-07 00:50:47 overwrite stylesheets/stats.css 
+2014-06-07 00:50:58 identical stylesheets/stats.css 
+2014-06-07 00:52:20 overwrite stylesheets/stats.css 
+2014-06-07 00:53:36 overwrite stylesheets/stats.css 
+2014-06-07 00:53:42 overwrite stylesheets/stats.css 
+2014-06-07 00:55:16 overwrite stylesheets/stats.css 
+2014-06-07 00:56:03 overwrite stylesheets/stats.css 
+2014-06-07 00:56:21 overwrite stylesheets/stats.css 
+2014-06-07 00:57:19 overwrite stylesheets/stats.css 
+2014-06-07 00:57:33 overwrite stylesheets/stats.css 
+2014-06-07 00:57:48 overwrite stylesheets/stats.css 
+2014-06-07 00:57:58 overwrite stylesheets/stats.css 
+2014-06-07 00:58:48 overwrite stylesheets/stats.css 
+2014-06-07 01:01:15 overwrite stylesheets/stats.css 
+2014-06-07 01:02:04 overwrite stylesheets/stats.css 
+2014-06-07 01:02:56 overwrite stylesheets/stats.css 
+2014-06-07 01:04:23 overwrite stylesheets/stats.css 
+2014-06-07 01:04:41 overwrite stylesheets/stats.css 
+2014-06-07 01:05:12 overwrite stylesheets/stats.css 
+2014-06-07 01:05:35 overwrite stylesheets/stats.css 
+2014-06-07 01:05:40 overwrite stylesheets/stats.css 
+2014-06-07 01:06:40 overwrite stylesheets/stats.css 
+2014-06-07 01:07:02 overwrite stylesheets/stats.css 
+2014-06-07 01:07:57 overwrite stylesheets/stats.css 
+2014-06-07 01:08:23 overwrite stylesheets/stats.css 
+2014-06-07 01:08:52 overwrite stylesheets/stats.css 
+2014-06-07 01:09:45 overwrite stylesheets/stats.css 
+2014-06-07 01:10:10 overwrite stylesheets/stats.css 
+2014-06-07 01:16:00 overwrite stylesheets/stats.css 
+2014-06-07 01:16:49 overwrite stylesheets/stats.css 
+2014-06-07 01:17:16 overwrite stylesheets/stats.css 
+2014-06-07 01:17:55 overwrite stylesheets/stats.css 
+2014-06-07 01:18:23 overwrite stylesheets/stats.css 
+2014-06-07 01:18:41 overwrite stylesheets/stats.css 
+2014-06-07 01:20:06 overwrite stylesheets/stats.css 
+2014-06-07 01:21:45 overwrite stylesheets/stats.css 
+2014-06-07 01:22:21 overwrite stylesheets/stats.css 
+2014-06-07 01:23:14 overwrite stylesheets/stats.css 
+2014-06-07 01:23:23 overwrite stylesheets/stats.css 
+2014-06-07 01:23:31 overwrite stylesheets/stats.css 
+2014-06-07 01:25:26 overwrite stylesheets/stats.css 
+2014-06-07 01:25:46 overwrite stylesheets/stats.css 
+2014-06-07 01:26:03 overwrite stylesheets/stats.css 
+2014-06-07 01:26:45 overwrite stylesheets/stats.css 
+2014-06-07 01:27:01 overwrite stylesheets/stats.css 
+2014-06-07 01:27:14 overwrite stylesheets/stats.css 
+2014-06-07 01:27:42 overwrite stylesheets/stats.css 
+2014-06-07 01:27:56 overwrite stylesheets/stats.css 
+2014-06-07 01:30:01 overwrite stylesheets/stats.css 
+2014-06-07 01:30:29 overwrite stylesheets/stats.css 
+2014-06-07 01:32:03 overwrite stylesheets/stats.css 
+2014-06-07 01:33:54 overwrite stylesheets/stats.css 
+2014-06-07 01:34:37 overwrite stylesheets/stats.css 
+2014-06-07 01:35:15 overwrite stylesheets/stats.css 
+2014-06-07 01:35:24 overwrite stylesheets/stats.css 
+2014-06-07 01:37:06 overwrite stylesheets/stats.css 
+2014-06-07 01:39:06 overwrite stylesheets/stats.css 
+2014-06-07 01:40:49 overwrite stylesheets/stats.css 
+2014-06-07 01:44:15 overwrite stylesheets/stats.css 
+2014-06-07 01:44:21 overwrite stylesheets/stats.css 
+2014-06-07 01:44:41 overwrite stylesheets/stats.css 
+2014-06-07 01:44:56 identical stylesheets/stats.css 
+2014-06-07 01:46:32 overwrite stylesheets/stats.css 
+2014-06-07 01:46:51 overwrite stylesheets/stats.css 
+2014-06-07 01:47:03 identical stylesheets/stats.css 
+2014-06-07 01:47:54 overwrite stylesheets/stats.css 
+2014-06-07 01:48:16 overwrite stylesheets/stats.css 
+2014-06-07 01:48:31 overwrite stylesheets/stats.css 
+2014-06-07 01:48:36 overwrite stylesheets/stats.css 
+2014-06-07 01:49:28 overwrite stylesheets/stats.css 
+2014-06-07 01:49:44 overwrite stylesheets/stats.css 
+2014-06-07 01:49:53 overwrite stylesheets/stats.css 
+2014-06-07 01:50:01 overwrite stylesheets/stats.css 
+2014-06-07 01:50:32 identical stylesheets/stats.css 
+2014-06-07 01:54:20 overwrite stylesheets/stats.css 
+2014-06-07 04:35:29 overwrite stylesheets/stats.css 
+2014-06-07 04:36:07 overwrite stylesheets/stats.css 
+2014-06-07 04:36:19 overwrite stylesheets/stats.css 
+2014-06-07 04:39:13 overwrite stylesheets/header.css 
+2014-06-07 04:39:14 overwrite stylesheets/stats.css 
+2014-06-07 04:39:15 overwrite stylesheets/style.css 
+2014-06-07 04:44:45 overwrite stylesheets/stats.css 
+2014-06-07 04:45:53 overwrite stylesheets/stats.css 
+2014-06-07 04:48:04 overwrite stylesheets/stats.css 
+2014-06-07 04:50:44 overwrite stylesheets/stats.css 
+2014-06-07 04:52:42 overwrite stylesheets/stats.css 
+2014-06-07 04:52:54 overwrite stylesheets/stats.css 
+2014-06-07 04:53:23 overwrite stylesheets/stats.css 
+2014-06-07 04:55:45 overwrite stylesheets/stats.css 
+2014-06-07 04:56:13 overwrite stylesheets/stats.css 
+2014-06-07 04:56:23 overwrite stylesheets/stats.css 
+2014-06-07 04:56:30 overwrite stylesheets/stats.css 
+2014-06-07 05:03:23 overwrite stylesheets/header.css 
+2014-06-07 05:03:25 overwrite stylesheets/stats.css 
+2014-06-07 05:03:26 overwrite stylesheets/style.css 
+2014-06-07 05:04:30 overwrite stylesheets/stats.css 
+2014-06-07 05:05:01 overwrite stylesheets/stats.css 
+2014-06-07 05:06:23 overwrite stylesheets/stats.css 
+2014-06-07 05:06:43 overwrite stylesheets/stats.css 
+2014-06-07 05:09:32 overwrite stylesheets/stats.css 
+2014-06-07 05:09:51 overwrite stylesheets/stats.css 
+2014-06-07 05:10:50 overwrite stylesheets/stats.css 
+2014-06-07 05:11:10 overwrite stylesheets/stats.css 
+2014-06-07 05:11:35 overwrite stylesheets/stats.css 
+2014-06-07 05:11:48 overwrite stylesheets/stats.css 
+2014-06-07 05:13:14 overwrite stylesheets/stats.css 
+2014-06-07 05:14:27 identical stylesheets/stats.css 
+2014-06-07 17:44:39     error sass/stats.scss (Line 95: Invalid CSS after "...ngle-transition": expected "}", was ": all 2s ease;")
+2014-06-07 17:44:39 overwrite stylesheets/stats.css 
+2014-06-07 17:45:53 overwrite stylesheets/stats.css 
+2014-06-07 17:46:26     error sass/stats.scss (Line 95: Invalid CSS after "	@transition:": expected pseudoclass or pseudoelement, was " all 2s ease;")
+2014-06-07 17:46:26 overwrite stylesheets/stats.css 
+2014-06-07 17:46:31 overwrite stylesheets/stats.css 
+2014-06-07 17:47:14 identical stylesheets/stats.css 
+2014-06-07 17:48:38 overwrite stylesheets/stats.css 
+2014-06-07 17:48:52 overwrite stylesheets/stats.css 
+2014-06-07 17:49:08 overwrite stylesheets/stats.css 
+2014-06-07 17:49:22 overwrite stylesheets/stats.css 
+2014-06-07 17:50:14 overwrite stylesheets/stats.css 
+2014-06-07 17:51:15 overwrite stylesheets/stats.css 
+2014-06-07 17:51:29 overwrite stylesheets/stats.css 
+2014-06-07 17:52:24 overwrite stylesheets/stats.css 
+2014-06-07 17:52:32 overwrite stylesheets/stats.css 
+2014-06-07 17:53:28 overwrite stylesheets/stats.css 
+2014-06-07 17:53:45 overwrite stylesheets/stats.css 
+2014-06-07 17:54:13 overwrite stylesheets/stats.css 
+2014-06-07 17:54:30 overwrite stylesheets/stats.css 
+2014-06-07 17:54:40     error sass/stats.scss (Line 95: Invalid CSS after "...ngle-transition": expected "}", was ": all 2s ease;")
+2014-06-07 17:54:40 overwrite stylesheets/stats.css 
+2014-06-07 17:55:14 overwrite stylesheets/stats.css 
+2014-06-07 17:56:28 overwrite stylesheets/stats.css 
+2014-06-07 18:03:47 overwrite stylesheets/stats.css 
+2014-06-07 18:03:57 overwrite stylesheets/stats.css 
+2014-06-07 19:14:49 overwrite stylesheets/stats.css 
+2014-06-07 19:22:16 overwrite stylesheets/stats.css 
+2014-06-07 19:22:50 overwrite stylesheets/stats.css 
+2014-06-07 19:23:11 overwrite stylesheets/stats.css 
+2014-06-07 19:23:55 overwrite stylesheets/stats.css 
+2014-06-07 19:24:39 overwrite stylesheets/header.css 
+2014-06-07 19:24:41 overwrite stylesheets/stats.css 
+2014-06-07 19:24:43 overwrite stylesheets/style.css 
+2014-06-07 19:27:27 overwrite stylesheets/stats.css 
+2014-06-07 19:28:11 identical stylesheets/header.css 
+2014-06-07 19:28:13 identical stylesheets/stats.css 
+2014-06-07 19:28:16 identical stylesheets/style.css 
+2014-06-07 19:35:35 overwrite stylesheets/stats.css 
+2014-06-07 19:36:04 overwrite stylesheets/stats.css 
+2014-06-07 19:36:30 overwrite stylesheets/stats.css 
+2014-06-07 19:36:44 overwrite stylesheets/stats.css 
+2014-06-07 19:36:54 overwrite stylesheets/stats.css 
+2014-06-07 19:39:25 overwrite stylesheets/stats.css 
+2014-06-07 19:43:44 overwrite stylesheets/stats.css 
+2014-06-07 20:56:36 overwrite stylesheets/stats.css 
+2014-06-07 20:56:49 overwrite stylesheets/stats.css 
+2014-06-07 21:28:41 identical stylesheets/stats.css 
+2014-06-07 21:29:05 overwrite stylesheets/stats.css 
+2014-06-07 21:29:21 overwrite stylesheets/stats.css 
+2014-06-07 21:48:13 overwrite stylesheets/stats.css 
+2014-06-07 21:48:37 overwrite stylesheets/stats.css 
+2014-06-07 21:49:12 overwrite stylesheets/stats.css 
+2014-06-07 21:49:24 identical stylesheets/stats.css 
+2014-06-07 21:49:56 overwrite stylesheets/stats.css 
+2014-06-07 21:50:18 overwrite stylesheets/stats.css 
+2014-06-07 21:50:26 overwrite stylesheets/stats.css 
+2014-06-07 23:10:59 overwrite stylesheets/stats.css 
+2014-06-07 23:15:19 overwrite stylesheets/stats.css 
+2014-06-07 23:21:00 overwrite stylesheets/stats.css 
+2014-06-07 23:21:28 overwrite stylesheets/stats.css 
+2014-06-07 23:22:07 overwrite stylesheets/stats.css 
+2014-06-07 23:22:17 overwrite stylesheets/stats.css 
+2014-06-07 23:22:36 overwrite stylesheets/stats.css 
+2014-06-07 23:22:58 overwrite stylesheets/stats.css 
+2014-06-07 23:23:44 overwrite stylesheets/stats.css 
+2014-06-07 23:23:55 overwrite stylesheets/stats.css 
+2014-06-07 23:24:06 overwrite stylesheets/stats.css 
+2014-06-07 23:25:06 overwrite stylesheets/stats.css 
+2014-06-07 23:53:50 overwrite stylesheets/stats.css 
+2014-06-07 23:55:48 overwrite stylesheets/stats.css 
+2014-06-08 00:10:29 overwrite stylesheets/stats.css 
+2014-06-08 00:10:46 overwrite stylesheets/stats.css 
+2014-06-08 00:10:51 identical stylesheets/stats.css 
+2014-06-08 01:24:38 overwrite stylesheets/stats.css 
+2014-06-08 01:25:14 overwrite stylesheets/stats.css 
+2014-06-08 01:28:03 overwrite stylesheets/stats.css 
+2014-06-08 01:28:11 overwrite stylesheets/stats.css 
+2014-06-08 01:29:32 overwrite stylesheets/stats.css 
+2014-06-08 01:30:15 identical stylesheets/stats.css 
+2014-06-08 01:42:54 overwrite stylesheets/stats.css 
+2014-06-08 01:42:56    create stylesheets/style.css 
+2014-06-08 01:48:12 overwrite stylesheets/stats.css 
+2014-06-08 01:48:18 identical stylesheets/stats.css 
+2014-06-08 01:48:41 overwrite stylesheets/stats.css 
+2014-06-08 01:48:51 overwrite stylesheets/stats.css 
+2014-06-08 01:50:47 overwrite stylesheets/stats.css 
+2014-06-08 01:50:51 overwrite stylesheets/stats.css 
+2014-06-08 01:51:01 identical stylesheets/stats.css 
+2014-06-08 01:51:10 overwrite stylesheets/stats.css 
+2014-06-08 01:51:31 overwrite stylesheets/stats.css 
+2014-06-08 01:51:59 overwrite stylesheets/stats.css 
+2014-06-08 01:52:02 overwrite stylesheets/stats.css 
+2014-06-08 01:52:07 identical stylesheets/stats.css 
+2014-06-08 01:52:13 overwrite stylesheets/stats.css 
+2014-06-08 01:52:29 overwrite stylesheets/stats.css 
+2014-06-08 01:52:42 overwrite stylesheets/stats.css 
+2014-06-08 01:52:44 identical stylesheets/stats.css 
+2014-06-08 01:52:49 overwrite stylesheets/stats.css 
+2014-06-08 02:04:15 overwrite stylesheets/stats.css 
+2014-06-08 02:04:52 overwrite stylesheets/stats.css 
+2014-06-08 23:23:15 overwrite stylesheets/stats.css 
+2014-06-08 23:23:57 overwrite stylesheets/stats.css 
+2014-06-08 23:24:13 overwrite stylesheets/stats.css 
+2014-06-08 23:24:31 overwrite stylesheets/stats.css 
+2014-06-08 23:25:20 overwrite stylesheets/stats.css 
+2014-06-08 23:25:32 overwrite stylesheets/stats.css 
+2014-06-08 23:25:41 overwrite stylesheets/stats.css 
+2014-06-08 23:26:08 overwrite stylesheets/stats.css 
+2014-06-08 23:27:05 overwrite stylesheets/stats.css 
+2014-06-08 23:27:18 overwrite stylesheets/stats.css 
+2014-06-08 23:28:52 overwrite stylesheets/stats.css 
+2014-06-08 23:30:07 overwrite stylesheets/stats.css 
+2014-06-08 23:30:16 overwrite stylesheets/stats.css 
+2014-06-08 23:30:25 overwrite stylesheets/stats.css 
+2014-06-08 23:30:51 overwrite stylesheets/stats.css 
+2014-06-08 23:31:04 overwrite stylesheets/stats.css 
+2014-06-08 23:48:22 overwrite stylesheets/header.css 
+2014-06-08 23:48:23 overwrite stylesheets/stats.css 
+2014-06-08 23:48:25 overwrite stylesheets/style.css 
+2014-06-08 23:48:44 identical stylesheets/header.css 
+2014-06-08 23:48:46 identical stylesheets/stats.css 
+2014-06-08 23:48:47 identical stylesheets/style.css 
+2014-06-08 23:53:33 overwrite stylesheets/stats.css 
+2014-06-08 23:58:03 identical stylesheets/stats.css 
+2014-06-08 23:58:07 overwrite stylesheets/stats.css 
+2014-06-08 23:59:42 overwrite stylesheets/stats.css 
+2014-06-09 00:08:03    create stylesheets/partials/font-awesome.css 
+2014-06-09 00:12:18     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:18    create stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:18     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:18 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:18     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:18 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:19     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:19 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:19     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:19 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:19     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:19 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:19     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:19 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:20     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:20 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:20     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:20 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:20     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:20 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:21     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:21 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:21     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:21 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:21     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:21 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:21     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:21 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:22     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:22 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:22     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:22 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:22     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:22 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:23     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:23 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:23     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:23 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:23     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:23 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:24     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:24 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:24     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:24 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:24     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:24 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:25     error sass/font-awesome/font-awesome.scss (Line 6: File to import not found or unreadable: variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:25 identical stylesheets/font-awesome/font-awesome.css 
+2014-06-09 00:12:47     error sass/stats.scss (Line 3: File to import not found or unreadable: partials/variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:48 overwrite stylesheets/stats.css 
+2014-06-09 00:12:51     error sass/stats.scss (Line 3: File to import not found or unreadable: partials/variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:51 identical stylesheets/stats.css 
+2014-06-09 00:12:53     error sass/stats.scss (Line 3: File to import not found or unreadable: partials/variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:53 identical stylesheets/stats.css 
+2014-06-09 00:12:55     error sass/stats.scss (Line 3: File to import not found or unreadable: partials/variables.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-09 00:12:55 identical stylesheets/stats.css 
+2014-06-09 00:13:02     error sass/stats.scss (Line 6: Invalid CSS after "body ": expected selector or at-rule, was "{")
+2014-06-09 00:13:02 overwrite stylesheets/stats.css 
+2014-06-09 00:13:18 overwrite stylesheets/stats.css 
+2014-06-09 00:33:17 overwrite stylesheets/stats.css 
+2014-06-09 00:36:45 overwrite stylesheets/stats.css 
+2014-06-09 00:36:57 overwrite stylesheets/stats.css 
+2014-06-09 00:38:32 overwrite stylesheets/stats.css 
+2014-06-09 00:39:12 overwrite stylesheets/stats.css 
+2014-06-09 00:39:49 overwrite stylesheets/stats.css 
+2014-06-09 00:39:59 overwrite stylesheets/stats.css 
+2014-06-09 00:40:19 overwrite stylesheets/stats.css 
+2014-06-09 00:41:49 overwrite stylesheets/stats.css 
+2014-06-09 00:46:02 overwrite stylesheets/stats.css 
+2014-06-09 00:46:47 overwrite stylesheets/stats.css 
+2014-06-09 00:49:39 overwrite stylesheets/stats.css 
+2014-06-09 00:50:33 overwrite stylesheets/stats.css 
+2014-06-09 00:51:23 overwrite stylesheets/stats.css 
+2014-06-09 00:51:37 overwrite stylesheets/stats.css 
+2014-06-09 00:52:11 overwrite stylesheets/stats.css 
+2014-06-09 00:52:24 overwrite stylesheets/stats.css 
+2014-06-09 00:52:53 overwrite stylesheets/stats.css 
+2014-06-09 00:53:53 overwrite stylesheets/stats.css 
+2014-06-09 00:54:10 overwrite stylesheets/stats.css 
+2014-06-09 00:54:21 overwrite stylesheets/stats.css 
+2014-06-09 00:54:42 overwrite stylesheets/stats.css 
+2014-06-09 00:54:50 overwrite stylesheets/stats.css 
+2014-06-09 00:55:08 overwrite stylesheets/stats.css 
+2014-06-09 00:55:14 overwrite stylesheets/stats.css 
+2014-06-09 00:55:22 overwrite stylesheets/stats.css 
+2014-06-09 00:56:22 overwrite stylesheets/stats.css 
+2014-06-09 00:56:38 overwrite stylesheets/stats.css 
+2014-06-09 00:56:48 overwrite stylesheets/stats.css 
+2014-06-09 00:57:00 overwrite stylesheets/stats.css 
+2014-06-09 00:57:12 overwrite stylesheets/stats.css 
+2014-06-09 00:58:20 overwrite stylesheets/stats.css 
+2014-06-09 00:58:39 overwrite stylesheets/stats.css 
+2014-06-09 00:59:49 overwrite stylesheets/stats.css 
+2014-06-09 00:59:54 overwrite stylesheets/stats.css 
+2014-06-09 01:00:13 overwrite stylesheets/stats.css 
+2014-06-09 01:00:22 overwrite stylesheets/stats.css 
+2014-06-09 01:00:34 overwrite stylesheets/stats.css 
+2014-06-09 01:00:41 identical stylesheets/stats.css 
+2014-06-09 01:00:53 overwrite stylesheets/stats.css 
+2014-06-09 01:01:05 overwrite stylesheets/stats.css 
+2014-06-09 01:01:29 overwrite stylesheets/stats.css 
+2014-06-09 01:01:39 overwrite stylesheets/stats.css 
+2014-06-09 01:01:48 overwrite stylesheets/stats.css 
+2014-06-09 01:02:10 overwrite stylesheets/stats.css 
+2014-06-09 01:03:55 overwrite stylesheets/stats.css 
+2014-06-09 01:04:24 overwrite stylesheets/stats.css 
+2014-06-09 01:04:55 overwrite stylesheets/stats.css 
+2014-06-09 01:05:34 overwrite stylesheets/stats.css 
+2014-06-09 01:06:10 overwrite stylesheets/stats.css 
+2014-06-09 01:06:33 overwrite stylesheets/stats.css 
+2014-06-09 01:06:39 overwrite stylesheets/stats.css 
+2014-06-09 01:07:59 overwrite stylesheets/stats.css 
+2014-06-09 01:08:15 overwrite stylesheets/stats.css 
+2014-06-09 01:09:54 overwrite stylesheets/stats.css 
+2014-06-09 01:10:48 overwrite stylesheets/stats.css 
+2014-06-09 01:11:18 overwrite stylesheets/stats.css 
+2014-06-09 01:11:24 overwrite stylesheets/stats.css 
+2014-06-09 01:11:32 overwrite stylesheets/stats.css 
+2014-06-09 01:11:44 overwrite stylesheets/stats.css 
+2014-06-09 01:12:06 overwrite stylesheets/stats.css 
+2014-06-09 01:12:12 overwrite stylesheets/stats.css 
+2014-06-09 01:12:46 overwrite stylesheets/stats.css 
+2014-06-09 01:17:13     error sass/header.scss (Line 58: Invalid CSS after "...   background: ": expected expression (e.g. 1px, bold), was "@include btn-co...")
+2014-06-09 01:17:13 overwrite stylesheets/header.css 
+2014-06-09 01:17:25     error sass/header.scss (Line 58: Invalid CSS after "...   background: ": expected expression (e.g. 1px, bold), was "@include btn-co...")
+2014-06-09 01:17:25 identical stylesheets/header.css 
+2014-06-09 01:17:25     error sass/stats.scss (Line 34 of sass/partials/_base.scss: Invalid CSS after "  #70d8ee": expected "{", was "}")
+2014-06-09 01:17:25 overwrite stylesheets/stats.css 
+2014-06-09 01:17:25     error sass/style.scss (Line 34 of sass/partials/_base.scss: Invalid CSS after "  #70d8ee": expected "{", was "}")
+2014-06-09 01:17:25 overwrite stylesheets/style.css 
+2014-06-09 01:17:25     error sass/header.scss (Line 58: Invalid CSS after "...   background: ": expected expression (e.g. 1px, bold), was "@include btn-co...")
+2014-06-09 01:17:25 identical stylesheets/header.css 
+2014-06-09 01:17:25     error sass/stats.scss (Line 34 of sass/partials/_base.scss: Invalid CSS after "  #70d8ee": expected "{", was "}")
+2014-06-09 01:17:25 identical stylesheets/stats.css 
+2014-06-09 01:17:25     error sass/style.scss (Line 34 of sass/partials/_base.scss: Invalid CSS after "  #70d8ee": expected "{", was "}")
+2014-06-09 01:17:25 identical stylesheets/style.css 
+2014-06-09 01:17:41     error sass/header.scss (Line 58: Invalid CSS after "...   background: ": expected expression (e.g. 1px, bold), was "@include btn-co...")
+2014-06-09 01:17:41 identical stylesheets/header.css 
+2014-06-09 01:17:41     error sass/stats.scss (Line 33 of sass/partials/_base.scss: Invalid CSS after "  #70d8ee": expected "{", was ";")
+2014-06-09 01:17:41 overwrite stylesheets/stats.css 
+2014-06-09 01:17:41     error sass/style.scss (Line 33 of sass/partials/_base.scss: Invalid CSS after "  #70d8ee": expected "{", was ";")
+2014-06-09 01:17:41 overwrite stylesheets/style.css 
+2014-06-09 01:17:42     error sass/header.scss (Line 58: Invalid CSS after "...   background: ": expected expression (e.g. 1px, bold), was "@include btn-co...")
+2014-06-09 01:17:42 identical stylesheets/header.css 
+2014-06-09 01:17:42     error sass/stats.scss (Line 33 of sass/partials/_base.scss: Invalid CSS after "  #70d8ee": expected "{", was ";")
+2014-06-09 01:17:42 identical stylesheets/stats.css 
+2014-06-09 01:17:42     error sass/style.scss (Line 33 of sass/partials/_base.scss: Invalid CSS after "  #70d8ee": expected "{", was ";")
+2014-06-09 01:17:42 identical stylesheets/style.css 
+2014-06-09 01:19:23     error sass/header.scss (Line 58: Invalid CSS after "...   background: ": expected expression (e.g. 1px, bold), was "@include btn-co...")
+2014-06-09 01:19:23 identical stylesheets/header.css 
+2014-06-09 01:19:25 overwrite stylesheets/stats.css 
+2014-06-09 01:19:26 overwrite stylesheets/style.css 
+2014-06-09 01:19:26     error sass/header.scss (Line 58: Invalid CSS after "...   background: ": expected expression (e.g. 1px, bold), was "@include btn-co...")
+2014-06-09 01:19:26 identical stylesheets/header.css 
+2014-06-09 01:19:36     error sass/header.scss (Line 58: Undefined mixin 'btn-color'.)
+2014-06-09 01:19:36 overwrite stylesheets/header.css 
+2014-06-09 01:20:11 overwrite stylesheets/header.css 
+2014-06-09 01:20:13 identical stylesheets/stats.css 
+2014-06-09 01:20:14 identical stylesheets/style.css 
+2014-06-09 01:24:12     error sass/header.scss (Line 58: Undefined variable: "$btn-color".)
+2014-06-09 01:24:12 overwrite stylesheets/header.css 
+2014-06-09 01:24:26 overwrite stylesheets/header.css 
+2014-06-09 01:24:27 overwrite stylesheets/stats.css 
+2014-06-09 01:24:28 overwrite stylesheets/style.css 
+2014-06-09 01:25:06 identical stylesheets/header.css 
+2014-06-09 01:25:52 identical stylesheets/stats.css 
+2014-06-09 01:28:01     error sass/header.scss (Line 47: Undefined variable: "$hover-color".)
+2014-06-09 01:28:01 overwrite stylesheets/header.css 
+2014-06-09 01:28:12 overwrite stylesheets/header.css 
+2014-06-09 01:28:14 overwrite stylesheets/stats.css 
+2014-06-09 01:28:16 overwrite stylesheets/style.css 
+2014-06-09 01:28:33 overwrite stylesheets/stats.css 
+2014-06-09 01:29:18 overwrite stylesheets/stats.css 
+2014-06-09 01:29:49 overwrite stylesheets/stats.css 
+2014-06-09 01:30:43 overwrite stylesheets/stats.css 
+2014-06-09 01:39:57 overwrite stylesheets/stats.css 
+2014-06-09 01:40:14 overwrite stylesheets/stats.css 
+2014-06-09 01:40:46 overwrite stylesheets/stats.css 
+2014-06-09 01:41:41 overwrite stylesheets/stats.css 
+2014-06-09 01:42:57 overwrite stylesheets/stats.css 
+2014-06-09 01:45:31 overwrite stylesheets/stats.css 
+2014-06-09 01:46:03 overwrite stylesheets/header.css 
+2014-06-09 01:46:05 overwrite stylesheets/stats.css 
+2014-06-09 01:46:07 overwrite stylesheets/style.css 
+2014-06-09 02:12:30 overwrite stylesheets/stats.css 
+2014-06-09 02:13:34 identical stylesheets/stats.css 
+2014-06-09 02:14:00 overwrite stylesheets/stats.css 
+2014-06-09 02:21:19 overwrite stylesheets/stats.css 
+2014-06-09 02:39:44 overwrite stylesheets/stats.css 
+2014-06-09 02:40:23 identical stylesheets/stats.css 
+2014-06-09 02:51:35 overwrite stylesheets/stats.css 
+2014-06-09 02:51:50 overwrite stylesheets/stats.css 
+2014-06-09 04:42:59     error sass/stats.scss (Line 11: Invalid CSS after "	$chart-bgcolor": expected ":", was ";")
+2014-06-09 04:42:59 overwrite stylesheets/stats.css 
+2014-06-09 04:43:30 overwrite stylesheets/stats.css 
+2014-06-09 04:43:54 overwrite stylesheets/stats.css 
+2014-06-09 04:45:20 overwrite stylesheets/stats.css 
+2014-06-09 04:57:13 overwrite stylesheets/stats.css 
+2014-06-09 05:01:32 overwrite stylesheets/stats.css 
+2014-06-09 05:04:15 overwrite stylesheets/stats.css 
+2014-06-09 05:05:44 overwrite stylesheets/stats.css 
+2014-06-09 05:19:48 overwrite stylesheets/stats.css 
+2014-06-09 05:21:14 identical stylesheets/stats.css 
+2014-06-09 05:25:43 overwrite stylesheets/stats.css 
+2014-06-09 05:25:58 overwrite stylesheets/stats.css 
+2014-06-09 05:26:35 overwrite stylesheets/stats.css 
+2014-06-09 05:27:16 overwrite stylesheets/stats.css 
+2014-06-09 05:29:53 overwrite stylesheets/stats.css 
+2014-06-09 05:38:34 overwrite stylesheets/stats.css 
+2014-06-09 05:38:50 overwrite stylesheets/stats.css 
+2014-06-09 07:01:44 overwrite stylesheets/stats.css 
+2014-06-09 07:01:50 identical stylesheets/stats.css 
+2014-06-09 07:06:45 overwrite stylesheets/stats.css 
+2014-06-09 07:07:31 overwrite stylesheets/stats.css 
+2014-06-09 07:10:56 overwrite stylesheets/stats.css 
+2014-06-09 07:12:54 overwrite stylesheets/stats.css 
+2014-06-09 07:14:33 overwrite stylesheets/stats.css 
+2014-06-09 07:18:53    create stylesheets/colors.css 
+2014-06-09 07:19:01 identical stylesheets/colors.css 
+2014-06-09 07:19:05     error sass/header.scss (Line 47: Undefined variable: "$hover-color".)
+2014-06-09 07:19:05 overwrite stylesheets/header.css 
+2014-06-09 07:19:07     error sass/stats.scss (Line 110: Undefined variable: "$hover-color".)
+2014-06-09 07:19:07 overwrite stylesheets/stats.css 
+2014-06-09 07:19:08 overwrite stylesheets/style.css 
+2014-06-09 07:20:13     error sass/stats.scss (Line 8: Invalid CSS after "...backgroundcolor": expected selector or at-rule, was "$chart-bgcolor:...")
+2014-06-09 07:20:13 overwrite stylesheets/stats.css 
+2014-06-09 07:20:21     error sass/stats.scss (Line 8: Invalid CSS after "...backgroundcolor": expected selector or at-rule, was "$chart-bgcolor:...")
+2014-06-09 07:20:21 identical stylesheets/stats.css 
+2014-06-09 07:20:28     error sass/stats.scss (Line 8: Invalid CSS after "...backgroundcolor": expected selector or at-rule, was "$chart-bgcolor:...")
+2014-06-09 07:20:28 identical stylesheets/stats.css 
+2014-06-09 07:21:08     error sass/stats.scss (Line 8: Invalid CSS after "...backgroundcolor": expected selector or at-rule, was "$chart-bgcolor:...")
+2014-06-09 07:21:08 identical stylesheets/stats.css 
+2014-06-09 07:21:44     error sass/stats.scss (Line 8: Invalid CSS after "...backgroundcolor": expected selector or at-rule, was "$chart-bgcolor:...")
+2014-06-09 07:21:44 identical stylesheets/stats.css 
+2014-06-09 07:21:57 overwrite stylesheets/stats.css 
+2014-06-09 21:52:11 overwrite stylesheets/stats.css 
+2014-06-09 22:08:21 overwrite stylesheets/stats.css 
+2014-06-09 22:09:46 identical stylesheets/stats.css 
+2014-06-09 22:10:02 overwrite stylesheets/stats.css 
+2014-06-09 22:11:07 overwrite stylesheets/stats.css 
+2014-06-09 22:11:24 overwrite stylesheets/stats.css 
+2014-06-09 22:11:39 overwrite stylesheets/stats.css 
+2014-06-09 22:13:05 overwrite stylesheets/stats.css 
+2014-06-09 22:14:09 overwrite stylesheets/stats.css 
+2014-06-09 22:14:23 overwrite stylesheets/stats.css 
+2014-06-09 22:22:07 overwrite stylesheets/stats.css 
+2014-06-09 22:23:23 overwrite stylesheets/stats.css 
+2014-06-09 22:27:59 overwrite stylesheets/stats.css 
+2014-06-09 22:35:01     error sass/stats.scss (Line 117: Undefined mixin 'noselect'.)
+2014-06-09 22:35:01 overwrite stylesheets/stats.css 
+2014-06-09 22:35:10 overwrite stylesheets/stats.css 
+2014-06-09 22:44:04 overwrite stylesheets/stats.css 
+2014-06-09 22:44:43 overwrite stylesheets/stats.css 
+2014-06-09 22:45:51 overwrite stylesheets/stats.css 
+2014-06-09 22:48:01 overwrite stylesheets/stats.css 

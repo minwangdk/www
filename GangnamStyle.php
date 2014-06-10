@@ -9,7 +9,7 @@ require 'session_yourlogin.php';
     <meta charset="utf-8" />
     <title>Gangnam Style</title>
 	<link rel="shortcut icon" href="favicon.ico"/>
-	<link rel="stylesheet" type="text/css" href="popdata/stylesheets/style.css">
+	<link rel="stylesheet" type="text/css" href="popdata/stylesheets/gangnamstyle.css">
 
 	<!-- this pop's vars-->
 	<script src="popdata/GangnamStyle/GangnamStyle.js"></script>

@@ -1,26 +1,43 @@
-@import "partials/fonts";
-@import "partials/base";
+@import 'partials/fonts';
+@import 'partials/base';
+@import 'font-awesome/font-awesome.scss';
+@import 'colors.scss';
 
-//CSS
-body {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1024px;
-  min-width: 800px;
+// Mixins
+// Chart colors - vars for CSS and .classes to javascript
+	//background
+	$chart-bgcolor: #69145a;
+	.chart-bg {		
+		background-color: $chart-bgcolor;
+	}
+	//lines
+
+// Player colors
+	//frame
+	$player-framecolor: #4d4d4d;
+	.player-bg {
+		background-color: #4d4d4d;
+	}
+
+	//highlight
+	$player-highlight: #e02927;
+	.player-highlight {
+		border-color: #e02927;
+	}
+
+// CSS
+h1 {
+	@include popfont;
 }
-
 
 .stats {
 	@include popfont;
 	margin: 0 0 15px 0;
 	padding: 0;
-	li {			
+	li {
+		position: relative;			
 		list-style-type: none;
-		display: inline-block;
-		//background: grey;
-		height: auto;
-		width: auto;		
+		display: inline-block;					
 		margin: 0 50px 0 0;
 	}
 	span {
@@ -36,11 +53,51 @@ body {
 		display: block;
 		font-size: 30px;
 	}
+	
+}	
+#change {
+	container {
+		display: block;
+	}
+	span{
+		display: inline;
+	}
+	span#percent {		
+		color: #6E6E6E;
+		font-weight: normal;	
+		font-size: 15px;
+	}
 }
+
+.arrow-up {		
+	position: absolute;
+	left: 98px;
+	top: 22px;
+	width: 0; 
+	height: 0; 
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;	
+	border-bottom: 7px solid #44BB0B;
+
+} 
+.arrow-down {
+	position: absolute;
+	left: 98px;
+	top: 22px;
+	width: 0; 
+	height: 0; 
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;	
+	border-top: 7px solid #EC0000;
+}
+
 #big_stats {	
 	color: #939393;
-	display: inline-block;
+	display: block;
 	height: 50px;	
+	width: 853px;
+	margin-left: auto;
+  	margin-right: auto;
 	font-size: 14px;
 	li {
 		display: inline-block;
@@ -51,8 +108,82 @@ body {
 	span {
 		color: #909090;
 		vertical-align:middle;
-		font-size: 26px;
-		
+		font-size: 26px;		
 	}
+}
+
+.toggle {	
+	@include popfont;	
+	@include noSelect;
+	display: inline-block;
+	margin: 0 -1px 0 0px;
+  	padding: 5px 5px;
+	height: 15px;
+	width: 72.5px;
+	font-size: 14px;
+	color: white;
+	background: $hover-color;	
+	@include border-top-radius(5px);
+	cursor: pointer;
+	@include single-transition(background-color, 0.2s);
+}
+
+.toggle:before {
+	font-family: fontawesome;	
+	margin-right: 2px;	
+}
+
+.toggle:hover {
+	background: $btn-color;
+}
+
+#graph-btn {
+	
+}
+
+#graph-btn:before {
+	content: '\f080';
+}
+
+#video-btn:before {
+	content: '\f144';
+}
+
+.transitional {
+	@include single-transition(all, 1s, ease, 0);
+}
+
+.wrapper {
+	position: relative;		
+	margin: 0;
+	padding: 0;
+}
+
+#video-mask {
+	position: absolute;
+	display: inline-block;	
+	opacity: 0;
+	z-index: 2;
+	cursor: pointer;
+}
+
+#smoothie-chart {	
+	position: absolute;	
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;	
+    top: 0;
+    z-index: -1;
+}
+
+.onloadOpacity {
+	opacity: 0.05;
+}
+
+#video-frame {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
 }
 

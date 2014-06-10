@@ -1,6 +1,6 @@
 // This file must be imported before loading html5-boilerplate
 
-// base
+// Defaults
 $line-height: 1.4 !default;
 $font-color: #222 !default;
 
@@ -14,22 +14,19 @@ $selected-background-color: #ff5e99 !default;
 $invalid-background-color: #f0dddd !default;
 
 
-//custom
-
-//////////////
+// Custom
 //compass imports
 @import "compass";
 @import "compass/css3";
 @import "h5bp";
 
-//////////////
-//mixins
 
-@mixin popfont{
+//mixins
+@mixin popfont {
   font-family: 'open_sansbold', sans-serif;  
 }
 
-@mixin noSelect{
+@mixin noSelect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -38,11 +35,16 @@ $invalid-background-color: #f0dddd !default;
   user-select: none;
 }
 
-//////////////
-//global classes
+// Global classes
 
 .hidden {
   display: none;
+}
+.invisible {
+  opacity: 0;
+}
+.visible {
+  opacity: 1;
 }
 .noSelect {
   -webkit-touch-callout: none;
@@ -51,4 +53,18 @@ $invalid-background-color: #f0dddd !default;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+// Global css
+html, body {
+    height: 100%;
+    padding: 0;
+}
+
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  min-width: 800px;
 }

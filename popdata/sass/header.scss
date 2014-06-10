@@ -44,22 +44,22 @@ header {
         margin: 0 0 0 -6px;       
         padding: 10px;     
         @include popfont;
-        color: #0793a7;
+        color: $hover-color;
         text-shadow: 1px 2px 8px #7796b4;
         font-size: 16px;      
         @include noSelect;
       }
       a:hover {
-        color: #70d8ee;
+        color: $btn-color;
         cursor: pointer;
       }      
       a:active {
         color: white;
-        background: #70d8ee;
+        background: $btn-color;
       }
       .loginbtnclicked {
         color: white;
-        background: #70d8ee;
+        background: $btn-color;
       }
       p {        
         margin: 0 -69px 0;

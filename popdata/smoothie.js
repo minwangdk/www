@@ -1,3 +1,13 @@
+/*  
+
+Custom changes:
+
+changed oldestvalidtime to * 1.5
+
+*/
+
+
+
 // MIT License:
 //
 // Copyright (c) 2010-2013, Joe Walnes
@@ -524,7 +534,7 @@
         chartOptions = this.options,
         dimensions = { top: 0, left: 0, width: canvas.clientWidth, height: canvas.clientHeight },
         // Calculate the threshold time for the oldest data points.
-        oldestValidTime = time - (dimensions.width * chartOptions.millisPerPixel),
+        oldestValidTime = time - (dimensions.width * 1.3 * chartOptions.millisPerPixel),
         valueToYPixel = function(value) {
           var offset = value - this.currentVisMinValue;
           return this.currentValueRange === 0
