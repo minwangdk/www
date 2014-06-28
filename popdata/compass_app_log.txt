@@ -2769,3 +2769,606 @@ Load paths:
 2014-06-09 22:44:43 overwrite stylesheets/stats.css 
 2014-06-09 22:45:51 overwrite stylesheets/stats.css 
 2014-06-09 22:48:01 overwrite stylesheets/stats.css 
+2014-06-11 00:09:40 overwrite stylesheets/stats.css 
+2014-06-11 00:09:52 overwrite stylesheets/stats.css 
+2014-06-11 00:10:44 overwrite stylesheets/stats.css 
+2014-06-11 00:11:06 overwrite stylesheets/stats.css 
+2014-06-11 00:13:45 overwrite stylesheets/stats.css 
+2014-06-11 00:13:56 overwrite stylesheets/stats.css 
+2014-06-11 08:32:54     error sass/stats.scss (Line 10: Invalid CSS after "h1 ": expected selector or at-rule, was "{")
+2014-06-11 08:32:54 overwrite stylesheets/stats.css 
+2014-06-11 08:33:55 overwrite stylesheets/stats.css 
+2014-06-11 08:38:25 identical stylesheets/stats.css 
+2014-06-11 08:38:39 overwrite stylesheets/stats.css 
+2014-06-11 08:38:56 identical stylesheets/stats.css 
+2014-06-11 08:39:51    create stylesheets/video_chart.css 
+2014-06-11 08:40:08 overwrite stylesheets/video_chart.css 
+2014-06-11 08:42:23 overwrite stylesheets/video_chart.css 
+2014-06-11 08:43:33 overwrite stylesheets/stats.css 
+2014-06-11 08:44:03 identical stylesheets/stats.css 
+2014-06-11 08:44:04 identical stylesheets/video_chart.css 
+2014-06-11 09:00:57 overwrite stylesheets/header.css 
+2014-06-11 09:02:56     error sass/header.scss (Line 3: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:02:56 overwrite stylesheets/header.css 
+2014-06-11 09:02:58     error sass/stats.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:02:58 overwrite stylesheets/stats.css 
+2014-06-11 09:02:59     error sass/video_chart.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:02:59 overwrite stylesheets/video_chart.css 
+2014-06-11 09:02:59    create stylesheets/partials/colors.css 
+2014-06-11 09:03:01     error sass/header.scss (Line 3: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:01 identical stylesheets/header.css 
+2014-06-11 09:03:02     error sass/stats.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:02 identical stylesheets/stats.css 
+2014-06-11 09:03:04     error sass/video_chart.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:04 identical stylesheets/video_chart.css 
+2014-06-11 09:03:05     error sass/header.scss (Line 3: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:05 identical stylesheets/header.css 
+2014-06-11 09:03:07     error sass/stats.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:07 identical stylesheets/stats.css 
+2014-06-11 09:03:08     error sass/video_chart.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:08 identical stylesheets/video_chart.css 
+2014-06-11 09:03:10     error sass/header.scss (Line 3: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:10 overwrite stylesheets/header.css 
+2014-06-11 09:03:12     error sass/stats.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:12 overwrite stylesheets/stats.css 
+2014-06-11 09:03:13     error sass/video_chart.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:13 overwrite stylesheets/video_chart.css 
+2014-06-11 09:03:15     error sass/header.scss (Line 3: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:15 identical stylesheets/header.css 
+2014-06-11 09:03:16     error sass/stats.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:16 identical stylesheets/stats.css 
+2014-06-11 09:03:18     error sass/video_chart.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:18 identical stylesheets/video_chart.css 
+2014-06-11 09:03:19     error sass/header.scss (Line 3: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:19 identical stylesheets/header.css 
+2014-06-11 09:03:20     error sass/stats.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:20 identical stylesheets/stats.css 
+2014-06-11 09:03:22     error sass/video_chart.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:22 identical stylesheets/video_chart.css 
+2014-06-11 09:03:23     error sass/header.scss (Line 3: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:23 identical stylesheets/header.css 
+2014-06-11 09:03:25     error sass/stats.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:25 identical stylesheets/stats.css 
+2014-06-11 09:03:26     error sass/video_chart.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:26 identical stylesheets/video_chart.css 
+2014-06-11 09:03:27     error sass/header.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:27 overwrite stylesheets/header.css 
+2014-06-11 09:03:27     error sass/stats.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:27 overwrite stylesheets/stats.css 
+2014-06-11 09:03:27     error sass/style.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:27 overwrite stylesheets/style.css 
+2014-06-11 09:03:27     error sass/video_chart.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:27 overwrite stylesheets/video_chart.css 
+2014-06-11 09:03:27     error sass/header.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:27 identical stylesheets/header.css 
+2014-06-11 09:03:27     error sass/stats.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:27 identical stylesheets/stats.css 
+2014-06-11 09:03:28     error sass/style.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:28 identical stylesheets/style.css 
+2014-06-11 09:03:28     error sass/video_chart.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:28 identical stylesheets/video_chart.css 
+2014-06-11 09:03:40     error sass/header.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:40 identical stylesheets/header.css 
+2014-06-11 09:03:40     error sass/stats.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:40 identical stylesheets/stats.css 
+2014-06-11 09:03:40     error sass/style.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:40 identical stylesheets/style.css 
+2014-06-11 09:03:40     error sass/video_chart.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:41 identical stylesheets/video_chart.css 
+2014-06-11 09:03:41     error sass/header.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:41 identical stylesheets/header.css 
+2014-06-11 09:03:41     error sass/stats.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:41 identical stylesheets/stats.css 
+2014-06-11 09:03:41     error sass/style.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:41 identical stylesheets/style.css 
+2014-06-11 09:03:41     error sass/video_chart.scss (Line 27 of sass/partials/_base.scss: Invalid CSS after "//mixins": expected selector or at-rule, was "@mixin popfont {")
+2014-06-11 09:03:41 identical stylesheets/video_chart.css 
+2014-06-11 09:03:54     error sass/header.scss (Line 3: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:54 overwrite stylesheets/header.css 
+2014-06-11 09:03:55     error sass/stats.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:55 overwrite stylesheets/stats.css 
+2014-06-11 09:03:57 overwrite stylesheets/style.css 
+2014-06-11 09:03:58     error sass/video_chart.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:58 overwrite stylesheets/video_chart.css 
+2014-06-11 09:03:59     error sass/header.scss (Line 3: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:03:59 identical stylesheets/header.css 
+2014-06-11 09:04:01     error sass/stats.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:04:01 identical stylesheets/stats.css 
+2014-06-11 09:04:02     error sass/video_chart.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:04:02 identical stylesheets/video_chart.css 
+2014-06-11 09:04:14     error sass/header.scss (Line 3: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:04:14 identical stylesheets/header.css 
+2014-06-11 09:04:15     error sass/stats.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:04:15 identical stylesheets/stats.css 
+2014-06-11 09:04:17 identical stylesheets/style.css 
+2014-06-11 09:04:18     error sass/video_chart.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:04:18 identical stylesheets/video_chart.css 
+2014-06-11 09:04:19     error sass/header.scss (Line 3: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:04:19 identical stylesheets/header.css 
+2014-06-11 09:04:21     error sass/stats.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:04:21 identical stylesheets/stats.css 
+2014-06-11 09:04:22     error sass/video_chart.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:04:22 identical stylesheets/video_chart.css 
+2014-06-11 09:04:36 overwrite stylesheets/header.css 
+2014-06-11 09:04:38     error sass/stats.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:04:38 identical stylesheets/stats.css 
+2014-06-11 09:04:39     error sass/video_chart.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:04:39 identical stylesheets/video_chart.css 
+2014-06-11 09:04:43     error sass/stats.scss (Line 4 of sass/video_chart.scss: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:04:43 overwrite stylesheets/stats.css 
+2014-06-11 09:04:45     error sass/video_chart.scss (Line 4: File to import not found or unreadable: colors.scss.
+Load paths:
+  C:/wamp/www/popdata/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/Users/Min/Desktop/Programming/vendor/assets/stylesheets)
+2014-06-11 09:04:45 identical stylesheets/video_chart.css 
+2014-06-11 09:04:58 overwrite stylesheets/stats.css 
+2014-06-11 09:04:59 overwrite stylesheets/video_chart.css 
+2014-06-11 09:05:57 identical stylesheets/header.css 
+2014-06-11 09:06:00 identical stylesheets/stats.css 
+2014-06-11 09:06:01 identical stylesheets/style.css 
+2014-06-11 09:06:03 identical stylesheets/video_chart.css 
+2014-06-11 09:06:23 overwrite stylesheets/header.css 
+2014-06-11 09:06:26 overwrite stylesheets/stats.css 
+2014-06-11 09:06:27 overwrite stylesheets/style.css 
+2014-06-11 09:06:29 overwrite stylesheets/video_chart.css 
+2014-06-11 09:06:50 overwrite stylesheets/stats.css 
+2014-06-11 09:06:51 overwrite stylesheets/video_chart.css 
+2014-06-11 09:06:55 overwrite stylesheets/stats.css 
+2014-06-11 09:06:58 overwrite stylesheets/header.css 
+2014-06-14 03:24:10 overwrite stylesheets/header.css 
+2014-06-14 03:24:13 overwrite stylesheets/stats.css 
+2014-06-14 03:24:14 overwrite stylesheets/style.css 
+2014-06-14 03:24:16 overwrite stylesheets/video_chart.css 
+2014-06-25 23:52:40    remove .sass-cache/ 
+2014-06-25 23:52:40    remove stylesheets/header.css 
+2014-06-25 23:52:40    remove stylesheets/stats.css 
+2014-06-25 23:52:40    remove stylesheets/style.css 
+2014-06-25 23:52:40    remove stylesheets/video_chart.css 
+2014-06-25 23:52:40    remove stylesheets/font-awesome/font-awesome.css 
+2014-06-25 23:52:45    create stylesheets/header.css 
+2014-06-25 23:52:51    create stylesheets/stats.css 
+2014-06-25 23:52:53    create stylesheets/style.css 
+2014-06-25 23:52:55    create stylesheets/video_chart.css 
+2014-06-25 23:52:55    create stylesheets/font-awesome/font-awesome.css 

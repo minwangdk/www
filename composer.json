@@ -1,0 +1,13 @@
+{
+	"autoload": {
+        "psr-0": {
+            "MyApp": "src"
+        }
+    },
+    "require": {        
+		"symfony/http-foundation": "2.5.*",
+		
+		"guzzle/guzzle": "*",
+        "cboden/ratchet": "0.3.*"
+    }
+}

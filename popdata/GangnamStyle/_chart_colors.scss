@@ -1,0 +1,20 @@
+ // Chart colors - vars for CSS and .classes to javascript
+	//background
+	$chart-bgcolor: #69145a;
+	.chart-bg {		
+		background-color: $chart-bgcolor;
+	}
+	//lines
+
+// Player colors
+	//frame
+	$player-framecolor: #4d4d4d;
+	.player-bg {
+		background-color: #4d4d4d;
+	}
+
+	//highlight
+	$player-highlight: #e02927;
+	.player-highlight {
+		border-color: #e02927;
+	}

@@ -1,113 +1,290 @@
-/*
-Syntax error: Undefined variable: "$hover-color".
-        on line 47 of C:/wamp/www/popdata/sass/header.scss
+@font-face {
+  font-family: 'open_sansbold';
+  src: local("..\vendor\fonts\opensans\opensans-bold-webfont.eot");
+  src: local("..\vendor\fonts\opensans\opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), local("..\vendor\fonts\opensans\opensans-bold-webfont.woff") format("woff"), local("..\vendor\fonts\opensans\opensans-bold-webfont.ttf") format("truetype"), local("..\vendor\fonts\opensans\opensans-bold-webfont.svg#open_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 
-Backtrace:
-C:/wamp/www/popdata/sass/header.scss:47
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/script/variable.rb:49:in `_perform'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/script/node.rb:40:in `perform'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:298:in `visit_prop'
-org/jruby/RubyKernel.java:2109:in `send'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-org/jruby/RubyArray.java:2339:in `collect'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:320:in `visit_rule'
-org/jruby/RubyKernel.java:2109:in `send'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-org/jruby/RubyArray.java:2339:in `collect'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:320:in `visit_rule'
-org/jruby/RubyKernel.java:2109:in `send'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-org/jruby/RubyArray.java:2339:in `collect'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:320:in `visit_rule'
-org/jruby/RubyKernel.java:2109:in `send'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-org/jruby/RubyArray.java:2339:in `collect'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:320:in `visit_rule'
-org/jruby/RubyKernel.java:2109:in `send'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-org/jruby/RubyArray.java:2339:in `collect'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:128:in `visit_root'
-org/jruby/RubyKernel.java:2109:in `send'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-org/jruby/RubyKernel.java:2109:in `send'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/root_node.rb:20:in `render'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/engine.rb:315:in `_render'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/engine.rb:262:in `render'
-file:/C:/Users/Min/Desktop/Programming/compass.app/compass-app.jar!/compass_patch.rb:60:in `compile'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-file:/C:/Users/Min/Desktop/Programming/compass.app/compass-app.jar!/compass_patch.rb:59:in `compile'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-file:/C:/Users/Min/Desktop/Programming/compass.app/compass-app.jar!/compass_patch.rb:58:in `compile'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
-org/jruby/RubyArray.java:1620:in `each'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/compiler.rb:25:in `compile'
-org/jruby/RubyKernel.java:2105:in `send'
-(__FORWARDABLE__):3:in `compile'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/project_watcher.rb:92:in `sass_modified'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/project_watcher.rb:85:in `sass_callback'
-org/jruby/RubyMethod.java:133:in `call'
-org/jruby/RubyProc.java:270:in `call'
-org/jruby/RubyProc.java:220:in `call'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/watch.rb:17:in `run_callback'
-file:/C:/Users/Min/Desktop/Programming/compass.app/compass-app.jar!/app_watcher.rb:32:in `listen_callback'
-org/jruby/RubyArray.java:1620:in `each'
-file:/C:/Users/Min/Desktop/Programming/compass.app/compass-app.jar!/app_watcher.rb:27:in `listen_callback'
-org/jruby/RubyArray.java:1620:in `each'
-file:/C:/Users/Min/Desktop/Programming/compass.app/compass-app.jar!/app_watcher.rb:26:in `listen_callback'
-org/jruby/RubyMethod.java:133:in `call'
-org/jruby/RubyProc.java:270:in `call'
-org/jruby/RubyProc.java:220:in `call'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/jruby/listen-0.7.3/lib/listen/listener.rb:212:in `on_change'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/jruby/listen-0.7.3/lib/listen/listener.rb:221:in `initialize_adapter'
-org/jruby/RubyProc.java:270:in `call'
-org/jruby/RubyProc.java:220:in `call'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/jruby/listen-0.7.3/lib/listen/adapters/polling.rb:56:in `poll'
-C:/Users/Min/Desktop/Programming/compass.app/lib/ruby/jruby/listen-0.7.3/lib/listen/adapters/polling.rb:32:in `start'
-org/jruby/RubyProc.java:270:in `call'
-org/jruby/RubyProc.java:224:in `call'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$hover-color\".\A         on line 47 of C:/wamp/www/popdata/sass/header.scss"; }
+/* line 44, ../sass/partials/_base.scss */
+.hidden {
+  display: none;
+}
+
+/* line 47, ../sass/partials/_base.scss */
+.invisible {
+  opacity: 0;
+}
+
+/* line 50, ../sass/partials/_base.scss */
+.visible {
+  opacity: 1;
+}
+
+/* line 53, ../sass/partials/_base.scss */
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 63, ../sass/partials/_base.scss */
+html, body {
+  height: 100%;
+  padding: 0;
+}
+
+/* line 68, ../sass/partials/_base.scss */
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  min-width: 800px;
+}
+
+/* line 7, ../sass/header.scss */
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  min-width: 800px;
+}
+
+/* line 16, ../sass/header.scss */
+header {
+  position: relative;
+  height: 90px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #008add), color-stop(100%, #00559b));
+  background: -webkit-linear-gradient(#008add, #00559b);
+  background: -moz-linear-gradient(#008add, #00559b);
+  background: -o-linear-gradient(#008add, #00559b);
+  background: linear-gradient(#008add, #00559b);
+  background-repeat: no-repeat;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 20px 0 0;
+}
+/* line 25, ../sass/header.scss */
+header .whitebox {
+  position: absolute;
+  right: 0px;
+  left: 205px;
+  margin: 2px 2px 0;
+  height: 86px;
+  background: white;
+}
+/* line 33, ../sass/header.scss */
+header .whitebox div {
+  display: inline-block;
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  top: 0px;
+  right: 0px;
+  text-align: right;
+}
+/* line 41, ../sass/header.scss */
+header .whitebox div a {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  margin: 0 0 0 -6px;
+  padding: 10px;
+  font-family: 'open_sansbold', sans-serif;
+  color: #0793a7;
+  text-shadow: 1px 2px 8px #7796b4;
+  font-size: 16px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 53, ../sass/header.scss */
+header .whitebox div a:hover {
+  color: #70d8ee;
+  cursor: pointer;
+}
+/* line 57, ../sass/header.scss */
+header .whitebox div a:active {
+  color: white;
+  background: #70d8ee;
+}
+/* line 61, ../sass/header.scss */
+header .whitebox div .loginbtnclicked {
+  color: white;
+  background: #70d8ee;
+}
+/* line 65, ../sass/header.scss */
+header .whitebox div p {
+  margin: 0 -69px 0;
+  display: inline;
+  color: orange;
+  font-family: 'open_sansbold', sans-serif;
+  font-size: 18px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: none;
+}
+
+/* line 83, ../sass/header.scss */
+#logo {
+  position: absolute;
+  bottom: -7px;
+  left: -6px;
+}
+
+/* line 91, ../sass/header.scss */
+.logbox {
+  width: 400px;
+  height: 300px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background: white;
+  box-shadow: 10px 10px 5px #888888;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'open_sansbold', sans-serif;
+  letter-spacing: 1px;
+  padding: 5px 20px;
+  z-index: 9;
+}
+/* line 104, ../sass/header.scss */
+.logbox h2 {
+  font-size: 15px;
+  color: #202020;
+  padding: 0 0 8px 0;
+  border-bottom: 2px solid #DFDFDF;
+}
+/* line 111, ../sass/header.scss */
+.logbox label {
+  color: #2E2E2E;
+}
+/* line 115, ../sass/header.scss */
+.logbox .loginlabel {
+  display: inline-block;
+  font-size: 16px;
+  width: 80px;
+}
+/* line 121, ../sass/header.scss */
+.logbox input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #DDF9F9 inset;
+}
+/* line 125, ../sass/header.scss */
+.logbox .logininput {
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 16px;
+  height: 32px;
+  width: 286.5px;
+  border-top: 1px solid #C9C9C9;
+  border-left: 1px solid #BEBEBE;
+  padding: 0 10px;
+  margin: 5px 0 0 5px;
+}
+/* line 137, ../sass/header.scss */
+.logbox .checkbox {
+  display: inline-block;
+  margin: 7px 0 0 65px;
+}
+/* line 140, ../sass/header.scss */
+.logbox .checkbox input {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+/* line 145, ../sass/header.scss */
+.logbox .checkbox label {
+  letter-spacing: normal;
+  font-size: 13px;
+  padding: 7px 0;
+  border-radius: 5px;
+}
+/* line 154, ../sass/header.scss */
+.logbox .checkbox:hover label {
+  background: #FCE383;
+}
+/* line 160, ../sass/header.scss */
+.logbox .popuplinks {
+  margin: 0 0 0 35px;
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: normal;
+  font-family: 'open_sansbold', sans-serif;
+  cursor: default;
+  color: #8B8B8B;
+}
+/* line 168, ../sass/header.scss */
+.logbox .popuplinks a {
+  text-decoration: none;
+  color: #8B8B8B;
+}
+/* line 174, ../sass/header.scss */
+.logbox #loginsubmit {
+  display: inline-block;
+  width: 120px;
+  height: 32px;
+  background: #0D65A6;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: none;
+  margin: 12px 85px;
+}
+/* line 189, ../sass/header.scss */
+.logbox #loginfooter {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  bottom: 0px;
+  margin: 0 -20px;
+  color: #4a66a0;
+  background: #e9eaed;
+}
+/* line 195, ../sass/header.scss */
+.logbox #loginfooter p {
+  display: inline-block;
+  margin: 30px 20px 0 90px;
+}
+/* line 202, ../sass/header.scss */
+.logbox #loginfooter .fb-login-button {
+  display: inline;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+/* line 212, ../sass/header.scss */
+.mask {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: fixed;
+  z-index: 1;
+  background: #72A7E7;
+  opacity: 0.4;
+}

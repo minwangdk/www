@@ -20,6 +20,10 @@ $invalid-background-color: #f0dddd !default;
 @import "compass/css3";
 @import "h5bp";
 
+//import partials
+@import 'colors';
+@import 'fonts';
+
 
 //mixins
 @mixin popfont {

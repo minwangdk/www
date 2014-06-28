@@ -6,22 +6,30 @@
   font-style: normal;
 }
 
-/* line 40, ../sass/partials/_base.scss */
+@font-face {
+  font-family: 'open_sansbold';
+  src: local("..\vendor\fonts\opensans\opensans-bold-webfont.eot");
+  src: local("..\vendor\fonts\opensans\opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), local("..\vendor\fonts\opensans\opensans-bold-webfont.woff") format("woff"), local("..\vendor\fonts\opensans\opensans-bold-webfont.ttf") format("truetype"), local("..\vendor\fonts\opensans\opensans-bold-webfont.svg#open_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 44, ../sass/partials/_base.scss */
 .hidden {
   display: none;
 }
 
-/* line 43, ../sass/partials/_base.scss */
+/* line 47, ../sass/partials/_base.scss */
 .invisible {
   opacity: 0;
 }
 
-/* line 46, ../sass/partials/_base.scss */
+/* line 50, ../sass/partials/_base.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 49, ../sass/partials/_base.scss */
+/* line 53, ../sass/partials/_base.scss */
 .noSelect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -31,13 +39,13 @@
   user-select: none;
 }
 
-/* line 59, ../sass/partials/_base.scss */
+/* line 63, ../sass/partials/_base.scss */
 html, body {
   height: 100%;
   padding: 0;
 }
 
-/* line 64, ../sass/partials/_base.scss */
+/* line 68, ../sass/partials/_base.scss */
 body {
   width: 80%;
   margin-left: auto;

@@ -5,34 +5,40 @@
 	<title>Stats</title>
 	<link rel='stylesheet' type='text/css' href='stylesheets/stats.css'>	
 	<script type='text/javascript' src='global.js'></script>
-	<script type='text/javascript' src='lib/jquery-1.11.0.min.js'></script>
-	<script type='text/javascript' src='smoothie.js'></script>	
-	<script type='text/javascript' src='stats.js'></script>	
-
+	<script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+	<script type='text/javascript' src='lib/smoothie.js'></script>	
+	<script type='text/javascript' src='video_chart.js'></script>		
+	<script type='text/javascript' src='lib/autobahn.min.js'></script>
+	
+	
+	
 </head>
 <body>
 
 <h1>Gangnam Style</h1>
 
+<!-- Stats -->
 <!-- <script type='text/javascript' src='popdata/ws_stats.js'></script> -->
-<ul class='stats' id='small_stats'>
-	<li id='price'>Current Price <span>$200.00</span></li>	
+<ul class='stats' id='small-stats'>
+	<li>Current Price <span id='price'>$200.00</span></li>	
 	<li id='change'>Daily Change	
 		<container>
-			<span id='changespan'>$26.31</span>				
+			<span id='dailychange'>$26.31</span>				
 			<span id='percent'>10.00%</span>					
 		</container>	
 		<div class='arrow-up'></div>	
 		<div class='arrow-down hidden'></div>		
 	</li>
-	<li id='range'>Today's Range <span>$200.00 - $400.00</span></li>	
+	<li>Today's Range <span id='todaysrange'>$200.00 - $400.00</span></li>	
 </ul>
-<ul class='stats' id='big_stats'>
-	<li id='worth'><div>Popularity </div><span>$20,000,000,000.00</span></li>
-	<li id='total_stocks'><div>Total Stocks </div><span>200,000,000.00</span></li>
+<ul class='stats' id='big-stats'>
+	<li><div>Popularity </div><span id='popularity'>$20,000,000,000.00</span></li>
+	<li><div>Total Stocks </div><span id='totalstocks'>200,000,000.00</span></li>
 </ul>
 
+<!-- Stats END -->
 
+<!-- Video-chart -->
 <div class='toggle' id='graph-btn'>	
 	Graph
 </div>
@@ -48,20 +54,21 @@
 	<iframe id='video-frame' width='853' height='480' src='//www.youtube.com/embed/9bZkp7q19f0?iv_load_policy=3&rel=0&showinfo=0&theme=light&nologo=1&autohide=1' frameborder='0' allowfullscreen></iframe>	
 </div>
 
-<i class="fa fa-spinner fa-spin"></i>
-<i class="fa fa-circle-o-notch fa-spin"></i>
-<i class="fa fa-refresh fa-spin"></i>
-<i class="fa fa-cog fa-spin"></i>
-<i class="fa fa-female fa-spin"></i>
+<i class='fa fa-spinner fa-spin'></i>
+<i class='fa fa-circle-o-notch fa-spin'></i>
+<i class='fa fa-refresh fa-spin'></i>
+<i class='fa fa-cog fa-spin'></i>
+<i class='fa fa-female fa-spin'></i>
 <div style='color: #39D812;'>Connected</div>
-
-
-
-
 
 
 <div id='chart-colors' class='chart-bg chart-lines'></div>
 <div id='player-colors' class='player-bg player-highlight'></div>
+<!-- Video-chart END -->
+
+<!-- websocket -->
+<script type='text/javascript' src='abClient.js'></script>
+<!-- websocket END -->
 </body>
 
 </html>
