@@ -1,42 +1,32 @@
 <?php
-require 'common.php';
-
-
+require 'db_config.php';
 
 try {
-	$newDB = new Database;
-	$db = $newDB->db;
+	$user_name = $_GET['username'];
+	$password = $_GET['password'];
 	
-	$db->beginTransaction();
+    $dbh = new PDO("mysql:host=$db_hostname;dbname=$db_name", $db_username, $db_password);
+    /*** echo a message saying we have connected ***/
+    echo 'Connected to database<br />';
+	$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	
+	$sql = "INSERT INTO users(username, popcorn, password) VALUES ('$user_name', '500', '$password')";
 
-	$username = $_POST['username'];
-	$password = $_POST['password'];
-	$startingPopcorn = 500;
+	echo($sql);
 
-	$sql = $db->prepare("INSERT INTO users(username, password, popcorn) VALUES ('$username', '$password', '$startingPopcorn')");
-	$count = $sql->execute();	 	
-
-	$db->commit();
-
-	$db = null;
-	print_r($sql);
-	echo "</br>" . $count . "change committed.";       
+    /*** INSERT data ***/
+    $count = $dbh->exec($sql);
     
+    /*** echo the number of affected rows ***/
+    echo $count;
+
+    /*** close the database connection ***/
+    $dbh = null;
 }
 catch(PDOException $e){
-	$db->rollback();
-    echo "Failed: " . $e->getMessage();
+    echo $e->getMessage();
 }
 	
-// try {
-
-// }
-
-
-
-
-// 	// HERE CURRENT SESSION BIND TO CREATED USER
-// 	$session->set('name', 'Drak');
-// 	$session getId()
-// 	$session
-
+	
+	
+?>

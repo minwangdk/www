@@ -3372,14 +3372,3 @@ Load paths:
 2014-06-25 23:52:53    create stylesheets/style.css 
 2014-06-25 23:52:55    create stylesheets/video_chart.css 
 2014-06-25 23:52:55    create stylesheets/font-awesome/font-awesome.css 
-2014-07-01 16:14:07    remove .sass-cache/ 
-2014-07-01 16:14:07    remove stylesheets/header.css 
-2014-07-01 16:14:07    remove stylesheets/stats.css 
-2014-07-01 16:14:07    remove stylesheets/style.css 
-2014-07-01 16:14:07    remove stylesheets/video_chart.css 
-2014-07-01 16:14:07    remove stylesheets/font-awesome/font-awesome.css 
-2014-07-01 16:14:14    create stylesheets/header.css 
-2014-07-01 16:14:21    create stylesheets/stats.css 
-2014-07-01 16:14:23    create stylesheets/style.css 
-2014-07-01 16:14:26    create stylesheets/video_chart.css 
-2014-07-01 16:14:27    create stylesheets/font-awesome/font-awesome.css 
