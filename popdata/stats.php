@@ -1,3 +1,9 @@
+<?php 
+require '../common.php';
+
+	print_r($session->all());
+?>
+
 <!doctype html>
 <html lang='en'>
 <head>
@@ -14,7 +20,9 @@
 	
 </head>
 <body>
-
+<?php
+echo $session->get('name');
+?>
 <h1>Gangnam Style</h1>
 
 <!-- Stats -->

@@ -1,7 +1,7 @@
 
 
 //topic for wamp, unique to poppage
-var popTopic = 'gangnamstyle';
+var popTopic = '1'; //popid for gangnamstyle
 
 //jquery handles for stats
 var price = $('#price');
@@ -11,31 +11,43 @@ var todaysRange = $('#todaysrange');
 var popularity = $('#popularity');
 var totalStocks = $('#totalstocks');
 
+var popcorn = $('');
+var ownedStocks = $('');
+
 //buysell handles
 var amount = 1; //bind to buysell amount at buysell buttons
 
 //functions
-function setStats(data) {
-	if (data.price) {
-		lastPrice = data.price[data.price.length - 1];
+function setPopStats(data) {
+	if (data.popstats.price) {
+		lastPrice = data.popstats.price[data.popstats.price.length - 1];
 		price.text('$' + lastPrice[1]);
 	}
-	if (data.dailyChange) {
-		dailyChange.text('$' + data.dailyChange);
+	if (data.popstats.dailyChange) {
+		dailyChange.text('$' + data.popstats.dailyChange);
 	}
-	if (data.percent) {
-		percent.text(data.percent + '%');
+	if (data.popstats.percent) {
+		percent.text(data.popstats.percent + '%');
 	}
-	if (data.todaysRangeLow && data.todaysRangeHigh) {
-		todaysRange.text('$' + data.todaysRangeLow + '-' + data.todaysRangeHigh);
+	if (data.popstats.todaysRangeLow && data.popstats.todaysRangeHigh) {
+		todaysRange.text('$' + data.popstats.todaysRangeLow + '-' + data.popstats.todaysRangeHigh);
 	}
-	if (data.popularity) {
-		popularity.text('$' + data.popularity);
+	if (data.popstats.popularity) {
+		popularity.text('$' + data.popstats.popularity);
 	}
-	if (data.totalStocks) {
-		totalStocks.text(data.totalStocks);
+	if (data.popstats.totalStocks) {
+		totalStocks.text(data.popstats.totalStocks);
 	}
 	return lastPrice; //run function and return array
+}
+
+function setUserStats(data) {
+	if (data.userstats.popcorn) {
+		popcorn.text(data.userstats.popcorn);
+	}
+	if (data.userstats.ownedpops[popTopic]) {
+		ownedStocks.text(data.userstats.ownedpops[popTopic]);
+	}
 }
 
 //autobahn
@@ -68,42 +80,38 @@ ab.connect(
 
 
 
-function onEvent(topicUri, event) // Called when an event is triggered 
-{
+function onEvent(topicUri, event) {// Called when an event is triggered
 	//new price points to add to smoothiechart, array [0] = timestamp [1] = value			
-	var lastPrice = setStats(event);
+	var lastPrice = setPopStats(event);
 }
 
-function fetch()
-{
-	sess.call('gangnamstyle', 'fetch', 'param2jingjing')
+function fetch() {
+	sess.call(popTopic, 'fetch', 'param2jingjing')
 	.then( //RPC with params, topicid, function, more params...	 
-	    function (result) // callback runs async after result returns from ws server .
-	    {  
+	    function (result) {// callback runs async after result returns from ws server .
 			//new price points to add to smoothiechart, array [0] = timestamp [1] = value			
-	    	var lastPrice = setStats(result);  
+	    	var lastPrice = setPopStats(result);  
+	    	setUserStats(result);
+	    	// console.log(result);
 	    }
     );
 }
 
-function buy()
-{
-	sess.call('gangnamstyle', 'buysell', 'buy', amount)
+function buy() {
+	sess.call(popTopic, 'buysell', 'buy', amount)
 	.then( //RPC with params, topicid, function, more params...	 
-	    function (result) // callback runs async after result returns from ws server .
-	    {  
+	    function (result) { // callback runs async after result returns from ws server .
+	     
 			//sessionID return new popcorn and stocks amount
 	    }
     );
 }
 
-function sell()
-{
-	sess.call('gangnamstyle', 'buysell', 'sell', amount)
+function sell() {
+	sess.call(popTopic, 'buysell', 'sell', amount)
 	.then( //RPC with params, topicid, function, more params...	 
-	    function (result) // callback runs async after result returns from ws server .
-	    {  
-			//sessionID return new popcorn and stocks amount
+	    function (result) {// callback runs async after result returns from ws server .
+	      	//sessionID return new popcorn and stocks amount
 	    }
     );
 }
