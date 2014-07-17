@@ -1,6 +1,6 @@
 
 
-//topic for wamp, unique to poppage
+//topic for wamp, unique to pop-page
 var popTopic = '1'; //popid for gangnamstyle
 
 //jquery handles for stats
@@ -86,8 +86,9 @@ function onEvent(topicUri, event) {// Called when an event is triggered
 }
 
 function fetch() {
+	//RPC with params( topicid, function, more params...)	 
 	sess.call(popTopic, 'fetch', 'param2jingjing')
-	.then( //RPC with params, topicid, function, more params...	 
+	.then( 
 	    function (result) {// callback runs async after result returns from ws server .
 			//new price points to add to smoothiechart, array [0] = timestamp [1] = value			
 	    	var lastPrice = setPopStats(result);  

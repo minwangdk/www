@@ -1,7 +1,8 @@
 <?php 
 require '../common.php';
 
-	print_r($session->all());
+//DEBUG
+	//print_r($session->all());
 ?>
 
 <!doctype html>

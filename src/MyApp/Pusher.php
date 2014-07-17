@@ -12,19 +12,26 @@ class Pusher implements WampServerInterface {
     protected $newDB;
     protected $db;
     public function statsArray($popid) {
-        $pop = $this->pops[$popid];
-        return array(
-            "price"             => $pop["price"             ],
-            "dailyChange"       => $pop["dailyChange"       ],
-            "percent"           => $pop["percent"           ],
-            "todaysRangeLow"    => $pop["todaysRangeLow"    ],
-            "todaysRangeHigh"   => $pop["todaysRangeHigh"   ],
-            "popularity"        => $pop["popularity"        ],
-            "totalStocks"       => $pop["totalStocks"       ]
-        );
+        if (array_key_exists($popid, $this->pops)) {
+            $pop = $this->pops[$popid];
+            return array(
+                "price"             => $pop["price"             ],
+                "dailyChange"       => $pop["dailyChange"       ],
+                "percent"           => $pop["percent"           ],
+                "todaysRangeLow"    => $pop["todaysRangeLow"    ],
+                "todaysRangeHigh"   => $pop["todaysRangeHigh"   ],
+                "popularity"        => $pop["popularity"        ],
+                "totalStocks"       => $pop["totalStocks"       ]
+            );
+        }        
     }
+    
+    protected $fetchOwnedPops;
+    protected $fetchPopcorn;
 
     public function __construct() {
+
+        
 
         $this->newDB = new Database;
         $this->db = $this->newDB->db;
@@ -88,7 +95,25 @@ class Pusher implements WampServerInterface {
             
         );
 
+        //PDO prepare statements for onCall
+        try 
+        {
+        $this->fetchOwnedPops = $this->db->prepare(
+            "   SELECT pops_id, quantity 
+                FROM users_own_pops 
+                WHERE users_id = :userid ");
+
+        $this->fetchPopcorn = $this->db->prepare(
+            "   SELECT popcorn
+                FROM currency
+                WHERE users_id = :userid ");
+        }
+        catch(PDOException $e)
+        {
+            echo $e->getMessage();
+        }        
     }
+
     public function onOpen(ConnectionInterface $conn) {        
         echo "New connection:\t[Client #" . $conn->resourceId . "].\n"; 
         // $conn->Session->set('wampstatus', 'wampiscool');
@@ -129,7 +154,7 @@ class Pusher implements WampServerInterface {
                         {
                             case "buy":
                                 //buysell function
-                                //DO THE DAMN DB AND ACTUAL BACKEND 
+                                // HERE DO THE DAMN DB AND ACTUAL BACKEND BUY SELL
 
                                 //broadcast new stats to topic
                                 $broadcastContent = array(
@@ -150,57 +175,40 @@ class Pusher implements WampServerInterface {
                         $userSess = $conn->Session->all();
                         $thisuser;
 
+                        //if userid already exists in userarray, $thisuser = userarray[userid]
                         if (array_key_exists($userSess["userid"], $this->users))
                         {   
-                            
                             $thisuser = &$this->users[$userSess["userid"]];
-                            echo "key alrdy exists \n";
+
+                            //debug
+                            echo "key already exists \n";
                             print_r($this->users);
+                        }
+                        else //else load user data into userarray from db
+                        {
+                            //debug
+                            echo "key does not already exist \n";
 
-                            
-                            
-
-                        }else{
-                            echo "key does not alrdy exist \n";
+                            //relationship: $thisuser = userarray[userid] = session userid
                             $this->users[$userSess["userid"]] = array();  
                             $thisuser = &$this->users[$userSess["userid"]];
-                        
-
-                            // if ($userSess["stocks"][$popid]) 
-                            // {
-                            //     $this->users[$userSess["userid"]]
-                            //         ["stocks"]
-                            //             [$popid]  =  $userSess["stocks"][$popid];                                
-                            // }  
-
-
-                    
-                            //HERE SET PREPARED STATEMENTS WITH PLACEHOLDERS
-
-                            //get owned pops by userid from session
+                           
+                            //fetchOwnedPops and fetchPopcorn prepare statements are in _construct
                             try
-                            {
-                                
-                                $userid = $userSess["userid"];
-                                $sql = $this->db->prepare("SELECT pops_id, quantity FROM users_own_pops WHERE users_id = '$userid'");
-                                $sql -> execute();
-                                $pops = $sql->fetchAll(PDO::FETCH_KEY_PAIR);
+                            {                  
+                                //get owned pops by userid from session                 
+                                $this->fetchOwnedPops -> execute(array(':userid' => $userSess["userid"]));
+                                $ownedpops = $this->fetchOwnedPops -> fetchAll(PDO::FETCH_KEY_PAIR);
+
+                                //debug
                                 echo "pops: \n";
-                                print_r($pops);
-                            }
+                                print_r($ownedpops);
+                            
+                                //get popcorn by userid from session
+                                $this->fetchPopcorn -> execute(array(':userid' => $userSess["userid"]));
+                                $popcorn = $this->fetchPopcorn -> fetch();
 
-                            catch(PDOException $e)
-                            {
-                                echo $e->getMessage();
-                            }
-
-                            //get popcorn by userid from session
-                            try
-                            {
-                                $userid = $userSess["userid"];
-                                $sql = $this->db->prepare("SELECT popcorn FROM users WHERE id = '$userid'");
-                                $sql -> execute();
-                                $popcorn = $sql->fetch();
+                                //debug
                                 echo "popcorn: \n";
                                 print_r($popcorn);
                             }
@@ -208,24 +216,24 @@ class Pusher implements WampServerInterface {
                             {
                                 echo $e->getMessage();
                             }
-
+                            //pass db data to userarray
                             $thisuser["popcorn"] = $popcorn["popcorn"];
-                            $thisuser["ownedpops"] = $pops;
-
+                            $thisuser["ownedpops"] = $ownedpops;
                         } 
-
-
+                        // return data to caller
                         $callResult = array(
                             "popstats"     =>   $this->statsArray($popid),
                             "userstats"    =>   array(
                                 "popcorn"       =>  $thisuser["popcorn"],
                                 "ownedpops"     =>  $thisuser["ownedpops"])
                         );
+
+                        //debug
                         echo "callresult: \n";
                         print_r($callResult);
-
                         echo "thisuser var: \n";
                         print_r($thisuser);
+
                         return $conn->callResult($id, $callResult);                       
                     break;
                 }                                             
@@ -235,6 +243,8 @@ class Pusher implements WampServerInterface {
     public function onUnSubscribe(ConnectionInterface $conn, $topic) {
     }  
     public function onClose(ConnectionInterface $conn) {
+
+        // HERE RUN GARBAGE COLLECTION ON USER ARRAY
     }       
     public function onError(ConnectionInterface $conn, \Exception $e) {
     }    
