@@ -6,7 +6,7 @@
     },
     "require": {        
 		"symfony/http-foundation": "2.5.*",
-		
+		"react/zmq": "0.2.*|0.3.*",
 		"guzzle/guzzle": "*",
         "cboden/ratchet": "0.3.*"
     }

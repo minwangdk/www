@@ -13,7 +13,7 @@ use MyApp\Pusher;
     require dirname(__DIR__) . '/Database.php';
 
 
-    $loop = Factory::create();
+   
     $newDB = new Database;
     $pdo = $newDB->db; 
     $options = array(        
@@ -22,19 +22,19 @@ use MyApp\Pusher;
         'db_data_col' => 'sessdata',
         'db_time_col' => 'sesstime'
     );
-    $handler = new PdoSessionHandler($pdo, $options);
-       
+    $sesshandler = new PdoSessionHandler($pdo, $options);
+    $loop = Factory::create(); 
 
     $webSock = new Server($loop);
     $webSock->listen(8080, '0.0.0.0'); // Binding to 0.0.0.0 means remotes can connect
 
-    $webServer = new IoServer(
+    new IoServer(
         new HttpServer(
             new WsServer(
                 new SessionProvider(
                     new WampServer(
-                        new Pusher()),                 
-                    $handler
+                        new Pusher($loop)),                 
+                    $sesshandler
                 )
             )
             

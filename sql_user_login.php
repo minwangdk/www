@@ -1,5 +1,5 @@
 <?php
-require 'common.php';
+require_once 'common.php';
 $newDB = new Database;
 $db = $newDB->db;
 
@@ -31,24 +31,7 @@ catch(PDOException $e)
 //Set session to logged in userID	
 $session->set('userid', $userID['id']);
 $session->set('username', $userID['username']);
-
-
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Login Screen</title>
-	<script type='text/javascript' src='popdata/lib/autobahn.min.js'></script>
-</head>
-<body>
-<script type='text/javascript' src='ab_fetchuserdata.js'></script>
-</body>
-</html>
-
-
-
-<?php
+require 'setToken.php';
 
 
 //DEBUG

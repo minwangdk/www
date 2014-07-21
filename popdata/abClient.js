@@ -3,6 +3,12 @@
 //topic for wamp, unique to pop-page
 var popTopic = '1'; //popid for gangnamstyle
 
+//userTopic from php session
+// var userTopic = {
+// 	"userID": 	session->getID,
+// 	"token": 	session->getToken
+// }
+
 //jquery handles for stats
 var price = $('#price');
 var dailyChange = $('#dailychange');
@@ -19,10 +25,7 @@ var amount = 1; //bind to buysell amount at buysell buttons
 
 //functions
 function setPopStats(data) {
-	if (data.popstats.price) {
-		lastPrice = data.popstats.price[data.popstats.price.length - 1];
-		price.text('$' + lastPrice[1]);
-	}
+	
 	if (data.popstats.dailyChange) {
 		dailyChange.text('$' + data.popstats.dailyChange);
 	}
@@ -37,6 +40,12 @@ function setPopStats(data) {
 	}
 	if (data.popstats.totalStocks) {
 		totalStocks.text(data.popstats.totalStocks);
+	}	
+	if (data.popstats.price) {
+		lastPrice = data.popstats.price[data.popstats.price.length - 1];
+		price.text('$' + lastPrice[1]);
+	} else {
+		return;
 	}
 	return lastPrice; //run function and return array
 }
@@ -64,6 +73,9 @@ ab.connect(
 		sess.subscribe(popTopic, onEvent);
 	  	// fetch latest stats 
 	  	fetch();
+	  	//subscribe to userTopic and get user data updates across multiple browser tabs
+	  	// sess.subscribe(userTopic, onEvent);
+
 	},
 
 	// The onhangup handler
@@ -80,9 +92,10 @@ ab.connect(
 
 
 
-function onEvent(topicUri, event) {// Called when an event is triggered
+function onEvent(topic, event) {// Called when an event is triggered
 	//new price points to add to smoothiechart, array [0] = timestamp [1] = value			
 	var lastPrice = setPopStats(event);
+	setUserStats(event);
 }
 
 function fetch() {

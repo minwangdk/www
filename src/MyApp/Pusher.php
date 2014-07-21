@@ -1,11 +1,16 @@
 <?php
 namespace MyApp;
 use Ratchet\ConnectionInterface;
+use Ratchet\MessageComponentInterface;
 use Ratchet\Wamp\WampServerInterface;
 use \PDO;
 use Database;
+use React\EventLoop\LoopInterface;
 
-class Pusher implements WampServerInterface {
+class Pusher implements WampServerInterface, MessageComponentInterface
+{   
+    private $loop;
+    private $clients;
 
     protected $pops;
     protected $users;
@@ -29,9 +34,14 @@ class Pusher implements WampServerInterface {
     protected $fetchOwnedPops;
     protected $fetchPopcorn;
 
-    public function __construct() {
-
+    public function __construct(LoopInterface $loop) {
         
+
+        /**
+         * Pass in the react event loop here
+         */
+        $this->loop = $loop;
+        $this->clients = array();
 
         $this->newDB = new Database;
         $this->db = $this->newDB->db;
@@ -91,9 +101,27 @@ class Pusher implements WampServerInterface {
             )
         );  
 
-        $this->users = array(
+        $this->users = array();
+
+        //periodic write to database / garbage collection of user array and pop array
+        // $this->loop->addTimer(59, function() {
             
-        );
+        //     $this->users foreach as user{
+        //        if (time() - user[LASTACTIVITY] > 1800) {
+        //             user send to db;
+        //             user->delete;
+        //        }
+        //     }
+
+        // });
+
+        // $this->loop->addTimer(59, function() {
+        //     $this->pops foreach as pop {
+        //         take last value add to bigger scope ie. 1min to 1hour
+        //         send to db
+
+        //     }
+        // });
 
         //PDO prepare statements for onCall
         try 
@@ -114,13 +142,31 @@ class Pusher implements WampServerInterface {
         }        
     }
 
-    public function onOpen(ConnectionInterface $conn) {        
-        echo "New connection:\t[Client #" . $conn->resourceId . "].\n"; 
-        // $conn->Session->set('wampstatus', 'wampiscool');
-        // var_dump($conn->Session->getFlashBag()->get('notice', array()));
-        // var_dump($conn->Session->all()); 
+    public function onOpen(ConnectionInterface $conn) {
+        //val
+        // $userSess = $conn->Session->all();  
+         
+
+        // if (array_key_exists($userSess["userid"], $this->users)) {
+        //     //relationship: $thisuser = userarray[userid] = session userid
+        //     $thisuser = &$this->users[$userSess["userid"]];
+
+        //     array_push($thisuser['Connections'], $conn);
+
+        // } else if ($this->clients[$conn->resourceId]['conn']) {
+
+
+        // } else {
+       
+        // $this->clients[$conn->resourceId]['conn'] = $conn;
+
+
+        echo "New connection:\t[Client #" . $conn->resourceId . "].\n";        
+        // }
     }    
     public function onSubscribe(ConnectionInterface $conn, $topic) {  
+        $userSess = $conn->Session->all();
+        //add usersessid to userarray
         $popid = $topic->getID(); //gangnamstyle       
         echo "Subscribe:\t[Client #" . $conn->resourceId . "] [Topic: " . $popid . "].\n";
     }
@@ -242,6 +288,9 @@ class Pusher implements WampServerInterface {
     } 
     public function onUnSubscribe(ConnectionInterface $conn, $topic) {
     }  
+    public function onMessage(ConnectionInterface $from, $msg) {
+
+    }
     public function onClose(ConnectionInterface $conn) {
 
         // HERE RUN GARBAGE COLLECTION ON USER ARRAY
