@@ -133,7 +133,7 @@ class Pusher implements WampServerInterface, MessageComponentInterface
 
         $this->fetchPopcorn = $this->db->prepare(
             "   SELECT popcorn
-                FROM currency
+                FROM users_own_currency
                 WHERE users_id = :userid ");
         }
         catch(PDOException $e)
@@ -144,7 +144,7 @@ class Pusher implements WampServerInterface, MessageComponentInterface
 
     public function onOpen(ConnectionInterface $conn) {
         //val
-        // $userSess = $conn->Session->all();  
+        $userSess = $conn->Session->all();  
          
 
         // if (array_key_exists($userSess["userid"], $this->users)) {
@@ -160,8 +160,14 @@ class Pusher implements WampServerInterface, MessageComponentInterface
        
         // $this->clients[$conn->resourceId]['conn'] = $conn;
 
+        echo "New connection:\t[Client #" . $conn->resourceId . "]\t" .
+            (isset($userSess) ? "[UserID: ".$userSess['username']."] \n" : "\n")
+            
+        ;
 
-        echo "New connection:\t[Client #" . $conn->resourceId . "].\n";        
+
+            
+          
         // }
     }    
     public function onSubscribe(ConnectionInterface $conn, $topic) {  

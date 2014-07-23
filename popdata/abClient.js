@@ -1,13 +1,24 @@
 
 
-//topic for wamp, unique to pop-page
-var popTopic = '1'; //popid for gangnamstyle
+//get poppage-data from html
+var popHeader = document.querySelector('h1'),
+              popData = popHeader.dataset;
+//topic for wamp, unique to pop-page              
+var popTopic = popData.poptopic; //popid for gangnamstyle = 1
 
-//userTopic from php session
-// var userTopic = {
-// 	"userID": 	session->getID,
-// 	"token": 	session->getToken
-// }
+//get cookie function
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) != -1) return c.substring(name.length,c.length);
+    }
+    return "";
+}
+//userTopic from cookie's user identifier
+var userTopic = getCookie('UserIdentifier');
 
 //jquery handles for stats
 var price = $('#price');
@@ -66,16 +77,17 @@ ab.connect(
 
 	// The onconnect handler
 	function (session) {			
-		sess = session; 
-		console.log('connected!');
-
 		// WAMP session established here ..
-		sess.subscribe(popTopic, onEvent);
-	  	// fetch latest stats 
-	  	fetch();
-	  	//subscribe to userTopic and get user data updates across multiple browser tabs
-	  	// sess.subscribe(userTopic, onEvent);
+		sess = session; 
+		console.log('connected!');	
 
+		//subscribe to pop
+		sess.subscribe(popTopic, onEvent);	  	
+	  	//subscribe to userTopic and get user data updates across multiple browser tabs
+	  	sess.subscribe(userTopic, onEvent);
+
+		// fetch latest stats 
+	  	fetch();
 	},
 
 	// The onhangup handler

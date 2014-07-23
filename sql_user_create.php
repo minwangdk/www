@@ -6,21 +6,26 @@ $db = $newDB->db;
 
 $userID;
 $startingPopcorn = 500;
+$identifier = random_text( 'alnum', 16 );
 
 try 
 { //insert new user, fetch new userID, insert popcorn into currency table with new userID
 	$username = $_POST['username'];
 	$password = $_POST['password'];
 
+	//beginTransaction
 	$db->beginTransaction();
 
+	//create user
 	$createUser 	= $db->prepare(
-		"	INSERT INTO users(username, password)
-			VALUES (:username, :password)	");
+		"	INSERT INTO users(username, password, identifier)
+			VALUES (:username, :password, :identifier)	");
 	$count = $createUser->execute(array(
-		':username' => $username,
-		':password' => $password));	 	
+		':username' 	=> $username,
+		':password' 	=> $password,
+		':identifier'	=> $identifier			));	 	
 
+	//fetch UserID after creation
 	$fetchUserID = $db->prepare(
         "   SELECT id 
             FROM users 
@@ -32,13 +37,21 @@ try
 
 	$userID = $fetchUserID->fetch();
 
+	//create popcorn for user using fetched userID
 	$createPopcorn	= $db->prepare(
-		"	INSERT INTO currency(users_id, popcorn)
+		"	INSERT INTO users_own_currency(users_id, popcorn)
 			VALUES (:userID, :startingPopcorn) 	");
 	$createPopcorn->execute(array(
 		':userID'			=> $userID['id'],
 		':startingPopcorn'	=> $startingPopcorn));
 
+
+
+
+
+
+
+	//commit and close db
 	$db->commit();
 	$db = null;
 

@@ -21,10 +21,16 @@ require '../common.php';
 	
 </head>
 <body>
-<?php
-echo $session->get('name');
-?>
-<h1>Gangnam Style</h1>
+
+<h1
+	data-popTopic="1">
+Gangnam Style
+</h1>
+
+<script>
+	var x = document.cookie;
+	console.log(x);
+</script>
 
 <!-- Stats -->
 <!-- <script type='text/javascript' src='popdata/ws_stats.js'></script> -->
@@ -70,7 +76,7 @@ echo $session->get('name');
 <i class='fa fa-female fa-spin'></i>
 <div style='color: #39D812;'>Connected</div>
 
-
+<!-- change to data-* tags ********************** -->
 <div id='chart-colors' class='chart-bg chart-lines'></div>
 <div id='player-colors' class='player-bg player-highlight'></div>
 <!-- Video-chart END -->
