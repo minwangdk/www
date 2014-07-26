@@ -31,6 +31,7 @@ catch(PDOException $e)
 //Set session to logged in userResult	
 $session->set('userid', $userResult['id']);
 $session->set('username', $userResult['username']);
+$session->set('identifier', $userResult['identifier']);
 
 //Renew token and save to DB, if login exists
 setToken();

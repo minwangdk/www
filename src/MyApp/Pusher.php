@@ -47,7 +47,7 @@ class Pusher implements WampServerInterface, MessageComponentInterface
         $this->db = $this->newDB->db;
         $this->pops = array(
             "1"  => array(
-                "name"  => "gangnamstyle",
+                "name"  => "Gangnam Style",
                 "price" => array(                    
                     0 => array(
                         0 => 1403775814,
@@ -160,21 +160,42 @@ class Pusher implements WampServerInterface, MessageComponentInterface
        
         // $this->clients[$conn->resourceId]['conn'] = $conn;
 
-        echo "New connection:\t[Client #" . $conn->resourceId . "]\t" .
-            (isset($userSess) ? "[UserID: ".$userSess['username']."] \n" : "\n")
-            
-        ;
+        echo "New connection: [Client #" . $conn->resourceId . "] " . (isset($userSess)?"[UserID: ".$userSess['username']."] \n" : "\n");
 
 
             
           
         // }
     }    
-    public function onSubscribe(ConnectionInterface $conn, $topic) {  
+    public function onSubscribe(ConnectionInterface $conn, $topic) {             
+        echo "Subscribe:\t[Client #" . $conn->resourceId . "] [Topic: " . $topic->getID() . "].\n";
         $userSess = $conn->Session->all();
-        //add usersessid to userarray
-        $popid = $topic->getID(); //gangnamstyle       
-        echo "Subscribe:\t[Client #" . $conn->resourceId . "] [Topic: " . $popid . "].\n";
+
+        if (isset($this->pops[$topic->getID()])) { //subscribing to poptopic
+           
+        } 
+        else if ($topic->getID() === $conn->Session->get('identifier')) { //subscribing to usertopic            
+            //if userarray does not have user, create new user
+            if (!isset($this->users[$userSess["userid"]])) {   
+                unset($this->users[$userSess["userid"]]);
+                $this->users[$userSess["userid"]] = array();   
+
+                //debug
+                echo "User DOES NOT already exist in userarray: Creating new user...\n";                      
+            }
+            //save topic to userarray for broadcasting later
+            if (!isset($this->users[$userSess["userid"]]["usertopic"])) {
+                $this->users[$userSess["userid"]]["usertopic"] = $topic;
+
+                //debug
+                echo "Usertopic saved to userarray:\n";
+                var_dump($this->users[$userSess["userid"]]["usertopic"]);
+            }
+        }
+        else { //subscribing to not-valid topic
+            echo "Invalid Topic. Closing connection...";
+            $conn-close();
+        }
     }
     public function onPublish(ConnectionInterface $conn, $topic, $event, array $exclude, array $eligible) {
         // maybe chat
@@ -221,75 +242,86 @@ class Pusher implements WampServerInterface, MessageComponentInterface
 
                             break;
                         }     
-                    break;
+                    
 
                     case "fetch":          
                         $userSess = $conn->Session->all();
                         $thisuser;
 
-                        //if userid already exists in userarray, $thisuser = userarray[userid]
-                        if (array_key_exists($userSess["userid"], $this->users))
-                        {   
-                            $thisuser = &$this->users[$userSess["userid"]];
+                        //if userarray does not have user, create new user
+                        if (!isset($this->users[$userSess["userid"]])) {   
+                            unset($this->users[$userSess["userid"]]);
+                            $this->users[$userSess["userid"]] = array();   
 
                             //debug
-                            echo "key already exists \n";
-                            print_r($this->users);
+                            echo "User DOES NOT already exist in userarray: Creating new user...\n";                      
+                        } else {                            
+                            echo "User ALREADY exists\n";
                         }
-                        else //else load user data into userarray from db
-                        {
-                            //debug
-                            echo "key does not already exist \n";
 
-                            //relationship: $thisuser = userarray[userid] = session userid
-                            $this->users[$userSess["userid"]] = array();  
-                            $thisuser = &$this->users[$userSess["userid"]];
-                           
+                        //set $thisuser as shorthand
+                        $thisuser = &$this->users[$userSess["userid"]];
+
+                        //if userarray data is empty: fetch userdata from db and pass to userarray
+                        if (!array_key_exists("identifier"  , $thisuser) &&
+                            !array_key_exists("popcorn"     , $thisuser) &&
+                            !array_key_exists("ownedpops"   , $thisuser) )
+                        {   
                             //fetchOwnedPops and fetchPopcorn prepare statements are in _construct
                             try
                             {                  
-                                //get owned pops by userid from session                 
+                                //get owned pops from db                
                                 $this->fetchOwnedPops -> execute(array(':userid' => $userSess["userid"]));
                                 $ownedpops = $this->fetchOwnedPops -> fetchAll(PDO::FETCH_KEY_PAIR);
-
-                                //debug
-                                echo "pops: \n";
-                                print_r($ownedpops);
-                            
                                 //get popcorn by userid from session
                                 $this->fetchPopcorn -> execute(array(':userid' => $userSess["userid"]));
                                 $popcorn = $this->fetchPopcorn -> fetch();
-
-                                //debug
-                                echo "popcorn: \n";
-                                print_r($popcorn);
                             }
                             catch(PDOException $e)
                             {
                                 echo $e->getMessage();
                             }
                             //pass db data to userarray
-                            $thisuser["popcorn"] = $popcorn["popcorn"];
-                            $thisuser["ownedpops"] = $ownedpops;
-                        } 
+                            $thisuser["identifier"] = $userSess["identifier"];
+                            $thisuser["popcorn"]    = $popcorn["popcorn"];
+                            $thisuser["ownedpops"]  = $ownedpops;
+
+                            //debug
+                            echo "User data DOES NOT exist: Fetching data from db...\n";
+                            echo "pops: \n";
+                            print_r($ownedpops);
+                            echo "popcorn: \n";
+                            print_r($popcorn);
+                        } else {
+                            echo "User data ALREADY exist: Returning data from userarray...\n";
+                        }
+                        
                         // return data to caller
                         $callResult = array(
+                            "test"  => "callresult");
+                        // return data to user topic
+                        $userBC = array(
                             "popstats"     =>   $this->statsArray($popid),
                             "userstats"    =>   array(
                                 "popcorn"       =>  $thisuser["popcorn"],
-                                "ownedpops"     =>  $thisuser["ownedpops"])
+                                "ownedpops"     =>  $thisuser["ownedpops"]  )
                         );
 
                         //debug
-                        echo "callresult: \n";
+                        echo "Callresult: \n";
                         print_r($callResult);
-                        echo "thisuser var: \n";
-                        print_r($thisuser);
+                        echo "Userbroadcast: \n";
+                        print_r($userBC);
+                        echo "Thisuser: \n";
+                        var_dump($thisuser);
 
-                        return $conn->callResult($id, $callResult);                       
-                    break;
-                }                                             
-            break;
+                }     
+                //buy/sell/fetch RPC all do this at the end:
+                //usertopic = $thisuser["usertopic"]
+                //broadcast nto user topic 
+                $thisuser["usertopic"]->broadcast($userBC);
+                //return callresult to caller
+                return $conn->callResult($id, $callResult); 
         }
     } 
     public function onUnSubscribe(ConnectionInterface $conn, $topic) {

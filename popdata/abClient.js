@@ -36,23 +36,22 @@ var amount = 1; //bind to buysell amount at buysell buttons
 
 //functions
 function setPopStats(data) {
-	
-	if (data.popstats.dailyChange) {
+	if (data.popstats.hasOwnProperty('dailyChange')) {
 		dailyChange.text('$' + data.popstats.dailyChange);
 	}
-	if (data.popstats.percent) {
+	if (data.popstats.hasOwnProperty('percent')) {
 		percent.text(data.popstats.percent + '%');
 	}
-	if (data.popstats.todaysRangeLow && data.popstats.todaysRangeHigh) {
+	if (data.popstats.hasOwnProperty('todaysRangeLow') && data.popstats.hasOwnProperty('todaysRangeHigh') ) {
 		todaysRange.text('$' + data.popstats.todaysRangeLow + '-' + data.popstats.todaysRangeHigh);
 	}
-	if (data.popstats.popularity) {
+	if (data.popstats.hasOwnProperty('popularity')) {
 		popularity.text('$' + data.popstats.popularity);
 	}
-	if (data.popstats.totalStocks) {
+	if (data.popstats.hasOwnProperty('totalStocks')) {
 		totalStocks.text(data.popstats.totalStocks);
 	}	
-	if (data.popstats.price) {
+	if (data.popstats.hasOwnProperty('price')) {
 		lastPrice = data.popstats.price[data.popstats.price.length - 1];
 		price.text('$' + lastPrice[1]);
 	} else {
@@ -62,10 +61,12 @@ function setPopStats(data) {
 }
 
 function setUserStats(data) {
-	if (data.userstats.popcorn) {
+	if (data.userstats.hasOwnProperty('popcorn') ) {
 		popcorn.text(data.userstats.popcorn);
 	}
-	if (data.userstats.ownedpops[popTopic]) {
+	if (data.userstats.hasOwnProperty('ownedpops') ) {
+		//only displaying stocks for onpage pop (popTopic)
+		//data.userstats.ownedpops is an array(popid => quantity)
 		ownedStocks.text(data.userstats.ownedpops[popTopic]);
 	}
 }
@@ -102,12 +103,20 @@ ab.connect(
 	}
 );
 
+function setStats(data) {
+	if ( data.hasOwnProperty('popstats') )	{
+		//new price points to add to smoothiechart, array [0] = timestamp [1] = value	
+		var lastPrice = setPopStats(data);
+	}
+	if ( data.hasOwnProperty('userstats') )	{
+		setUserStats(data);
+	}
+}
 
-
-function onEvent(topic, event) {// Called when an event is triggered
-	//new price points to add to smoothiechart, array [0] = timestamp [1] = value			
-	var lastPrice = setPopStats(event);
-	setUserStats(event);
+function onEvent(topic, event) {// Called when an event is triggered	
+	setStats(event);
+	console.log("onEvent():");
+	console.log(event);
 }
 
 function fetch() {
@@ -115,10 +124,9 @@ function fetch() {
 	sess.call(popTopic, 'fetch', 'param2jingjing')
 	.then( 
 	    function (result) {// callback runs async after result returns from ws server .
-			//new price points to add to smoothiechart, array [0] = timestamp [1] = value			
-	    	var lastPrice = setPopStats(result);  
-	    	setUserStats(result);
-	    	// console.log(result);
+			setStats(result);
+	    	console.log("fetch result:");
+	    	console.log(result);
 	    }
     );
 }
