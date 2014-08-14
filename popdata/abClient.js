@@ -29,6 +29,8 @@ var popularity = $('#popularity');
 var totalStocks = $('#totalstocks');
 
 var popcorn = $('');
+var bitcoin = $('');
+var dollars = $('');
 var ownedStocks = $('');
 
 //buysell handles
@@ -53,7 +55,7 @@ function setPopStats(data) {
 	}	
 	if (data.popstats.hasOwnProperty('price')) {
 		lastPrice = data.popstats.price[data.popstats.price.length - 1];
-		price.text('$' + lastPrice[1]);
+		price.text('$' + lastPrice);
 	} else {
 		return;
 	}
@@ -61,8 +63,10 @@ function setPopStats(data) {
 }
 
 function setUserStats(data) {
-	if (data.userstats.hasOwnProperty('popcorn') ) {
-		popcorn.text(data.userstats.popcorn);
+	if (data.userstats.hasOwnProperty('currency') ) {
+		popcorn.text(data.userstats.currency.popcorn);
+		bitcoin.text(data.userstats.currency.bitcoin);
+		dollars.text(data.userstats.currency.dollars);
 	}
 	if (data.userstats.hasOwnProperty('ownedpops') ) {
 		//only displaying stocks for onpage pop (popTopic)

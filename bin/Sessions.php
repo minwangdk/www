@@ -15,6 +15,8 @@ $pdo = $newDB->db;
 
 $maxIdleTime = 1800; //session lifetime before expire
 $NSSoptions = array(
+    'gc_probability'    => 1,
+    'gc_divisor'        => 100,
     'cookie_lifetime '  => 0,
     'gc_maxlifetime'    => ($maxIdleTime / 60 + 1)
 );
