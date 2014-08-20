@@ -7,14 +7,15 @@ use \PDO;
 use Database;
 use React\EventLoop\LoopInterface;
 
-class Pusher implements WampServerInterface, MessageComponentInterface
+class PopStocks extends PriceHandling implements WampServerInterface
 {   
-    private $loop;
+    protected $loop;
 
-    private $pops;
-    private $users;
-    private $newDB;
-    private $db;
+    protected $pops;
+    protected $users;    
+    protected $newDB;
+    protected $db;
+
     public function popStatsArray($popid) {
         if (array_key_exists($popid, $this->pops)) {
             $pop = $this->pops[$popid];
@@ -39,106 +40,16 @@ class Pusher implements WampServerInterface, MessageComponentInterface
         }
     }
                     
-    private $fetchOwnedPops;
-    private $fetchOwnedCurr;
-    private $updateUsersPops;
-    private $updateUsersCurr;
+    protected $fetchOwnedPops;
+    protected $fetchOwnedCurr;
+    protected $updateUsersPops;
+    protected $updateUsersCurr;
 
-    private $ticker;
-
-    public function numberBreakdown($number, $getdecimalpart = TRUE) { //return decimal part of number
-        $whole = floor($number);
-        $fraction = $number - $whole;
-        if ($getdecimalpart) {
-            return $fraction;
-        }else{
-            return $whole;
-        }
-    }
-
-    public function addPrice($scope) {
-        foreach ($this->pops as $key => $pop) {                
-            $this->pops[$key][$scope][] = array(
-                0   => round(microtime(true)),
-                1   => $pop["price"][1]
-            );                                      
-        }
-    }
-
-    //$interval in seconds, $scope is popprice array eg. popseconds, 
-    //$offset = how many elements to keep in array at a time(use negative number), $savetoDB = savetoDB and trim DB
-    public function poparrayTrimmer($scope, $offset, $saveToDB = FALSE) {        
-        try 
-        {   
-            //first delete old records
-            if ($saveToDB) {
-                $this->db->beginTransaction();
-                switch ($scope) {
-                    case 'priceMinute':
-                        $this->archivePrices    = $this->archivePrices1min;
-                        $this->trimDBPrices     = $this->trimDBPrices1min;
-                        $this->keepFor  = 60 * 60 * 24 * 2; //2 days
-                    break;
-
-                    case 'priceHour':
-                        $this->archivePrices    = $this->archivePrices1hour;
-                        $this->trimDBPrices     = $this->trimDBPrices1hour;
-                        $this->keepFor  = 60 * 60 * 24 * 14; //2 weeks
-                    break;
-
-                    case 'priceDay':
-                        $this->archivePrices    = $this->archivePrices1day;
-                        $this->trimDBPrices     = $this->trimDBPrices1day;
-                        $this->keepFor  = FALSE; //dont delete records
-                }
-                if ($this->keepFor) {
-                    $this->lifetime = time() - $this->keepFor;
-                    $this->trimDBPrices -> execute(array(                        
-                    ':lifetime'     => $this->lifetime
-                    ));
-                }
-                //debug
-                echo "DB trimmed as part of trim\n";
-            }
-
-            foreach ($this->pops as $key => $pop) { 
-                //data temporarily hold latest chunk of price array
-                $sliceOfPop = array_slice($this->pops[$key][$scope], $offset);                         
-                if ($saveToDB) { // save latest values to DB, default off      
+    protected $ticker;
 
 
-                    // insert data to database                          
-                    foreach ($sliceOfPop as $row) {
-                        $this->archivePrices -> execute(array(                                
-                            ':popid'        => $key,
-                            ':timestamp'    => $row[0],
-                            ':price'        => $row[1]
-                        ));
-                    }  
-                    $this->db->commit();    
-                    //debug
-                    echo "saved to DB as part of trim\n";
-                    var_dump($sliceOfPop);
-                }
-                // $sliceOfPop = array_slice($this->pops[$key][$scope], $offset);                    
-                // unset($this->pops[$key][$scope]); 
-
-                //copy data to array  (trim popprice) 
-                $this->pops[$key][$scope] = $sliceOfPop;
-            }
-
-            //debug
-            echo "trimmed " .$scope. "\n";                
-        }
-        catch(PDOException $e)
-        {
-            $this->db->rollback();
-            echo $e->getMessage();
-        }    
-        
-    }
-
-    public function poparrayTimer($interval = 1) {
+    public function poparrayTimer($interval = 1) 
+    {
         $this->loop->addTimer($interval, function() { 
             //increment ticker
             $this->ticker += 1;
@@ -149,39 +60,54 @@ class Pusher implements WampServerInterface, MessageComponentInterface
 
             if ($this->ticker % 60 === 0) { //1min
                 //add price to priceMinute
-                $this->addPrice('priceMinute');
+                $this->addPrice('priceMinute');                
+                //save to DB
+                $this->saveToDB('priceMinute', -1);
+                //poparray trimmer
+                $this->poparrayTrim('priceSecond', -60);
 
-                //trimmer
-                $this->poparrayTrimmer('priceSecond', -60, FALSE);
-
-                //delay
+                //debug
                 echo "pang! \n";
             }
             if ($this->ticker % 3600 === 0) { //1h
                 //add price to priceHour
                 $this->addPrice('priceHour');
+                //save to DB
+                $this->saveToDB('priceHour', -1);
+                //poparray trimmer
+                $this->poparrayTrim('priceMinute', -1440); //hold 24hours worth of minutedata
 
-                //trimmer
-                $this->poparrayTrimmer('priceMinute', -60, TRUE);
-                //delay
+                //debug
                 echo "Kapang! \n";
             }
             if ($this->ticker % 86400 === 0) { //24h
                 //add price to priceDay
                 $this->addPrice('priceDay');
+                //save to DB
+                $this->saveToDB('priceDay', -1);
+                //poparray trimmer
+                $this->poparrayTrim('priceHour', -336); //hold 14 days worth of hourdata in poparray
+                //DB trimmer
+                $this->trimDBPrices ('priceMinute'); //hold 2 days worth of minutedata in database
 
-                //trimmer
-                $this->poparrayTrimmer('priceHour', -24, TRUE);
-                //delay
+
+                //debug
                 echo "MOKapang! \n";
             }
+            
             if ($this->ticker % 604800 === 0) { //7 days
                 
-                //trimmer
-                $this->poparrayTrimmer('priceDay', -7, TRUE);
-                //delay
-                echo "Rasala! \n";
+                //poparray trimmer
+                $this->poparrayTrim('priceDay', -7); //hold 7 days worth of dailydata in poparray
+
+                //DB trimmer
+                $this->trimDBPrices ('priceHour'); //hold 2 weeks worth of hourdata in database
+
+                //reset ticker
                 $this->ticker = 0;
+
+                //debug
+                echo "Rasala! \n";                
             }
 
             //debug
@@ -192,20 +118,21 @@ class Pusher implements WampServerInterface, MessageComponentInterface
             $this->p = end( $this->pops['1']['priceSecond'] ) ;
             $this->o = key( $this->pops['1']['priceSecond'] ) ;
             reset($this->pops['1']['priceSecond']);
+            echo "key#";
             print_r($this->o);
+            echo " ";
             print_r($this->p);
-            echo "\n";
             echo microtime() . "...\n"; 
             echo "ticker: " . $this->ticker . "\n";
-
-            //call itself with 1s delay, adjusted for delay            
-            $interval = 1 - $this->numberBreakdown(microtime(true));
+            
+            //set delay for next cycle (1sec), compensating for time to run the cycle
+            $mtime = microtime(true);
+            $skew = $mtime - floor($mtime);
+            $interval = 1 - $skew;
             $this->poparrayTimer($interval);
         });
     }   
-
     
-
     public function __construct(LoopInterface $loop) 
     {    
         
@@ -293,77 +220,7 @@ class Pusher implements WampServerInterface, MessageComponentInterface
 
 
         //PDO prepare statements
-        try 
-        {// for onCall
-            $this->fetchOwnedPops   = $this->db->prepare(
-                "   SELECT  pops_id, quantity 
-                    FROM    users_own_pops 
-                    WHERE   users_id = :userid "
-            );
-
-            $this->fetchOwnedCurr   = $this->db->prepare(
-                "   SELECT  popcorn, dollars, bitcoins
-                    FROM    users_own_currency
-                    WHERE   users_id = :userid "
-            );
-              
-            $this->updateUsersPops  = $this->db->prepare( // get id from users table with identifier from userarray
-                "   INSERT INTO     users_own_pops (users_id, pops_id, quantity)
-                    VALUES      ((
-                        SELECT  id 
-                        FROM    users
-                        WHERE   identifier = :identifier
-                        ),
-                        :pops_id,
-                        :quantity 
-                    )
-                    ON DUPLICATE KEY UPDATE quantity = :quantity "
-            );
-
-            $this->updateUsersCurr  = $this->db->prepare(
-                "   UPDATE  users_own_currency 
-                    SET     popcorn     = :popcorn,
-                            dollars     = :dollars,
-                            bitcoins    = :bitcoins
-                    WHERE   users_id    = (
-                        SELECT  id 
-                        FROM    users
-                        WHERE   identifier = :identifier
-                    )"
-            );
-
-            $this->archivePrices1min    = $this->db->prepare( 
-                "   INSERT INTO     pop_prices_1min (pops_id, timestamp, price)
-                    VALUES          (:popid, :timestamp, :price)  "
-            );
-            $this->trimDBPrices1min     = $this->db->prepare(
-                "   DELETE FROM     pop_prices_1min
-                    WHERE           timestamp < :lifetime  "
-            );
-
-            $this->archivePrices1hour   = $this->db->prepare( 
-                "   INSERT INTO     pop_prices_1hour (pops_id, timestamp, price)
-                    VALUES          (:popid, :timestamp, :price)  "
-            );
-            $this->trimDBPrices1hour    = $this->db->prepare(
-                "   DELETE FROM     pop_prices_1hour
-                    WHERE           timestamp < :lifetime   "
-            );
-
-            $this->archivePrices1day    = $this->db->prepare( 
-                "   INSERT INTO     pop_prices_1day (pops_id, timestamp, price)
-                    VALUES          (:popid, :timestamp, :price)  "
-            );
-            $this->trimDBPrices1day     = $this->db->prepare(
-                "   DELETE FROM     pop_prices_1day
-                    WHERE           timestamp < :lifetime   "
-            );
-
-        }
-        catch(PDOException $e)
-        {
-            echo $e->getMessage();
-        }        
+        require 'PDO_PrepareStatements.php';        
 
         // periodic write to database / garbage collection of user array and pop array. 2147 maxiumum
         //userarray timer
@@ -409,39 +266,10 @@ class Pusher implements WampServerInterface, MessageComponentInterface
 
         //poparray timer initiator
         $this->poparrayTimer();
-           
-
-        // //per second, add latest price to priceSecond array
-        // $this->poparrayTimer(0, 1, "priceSecond"); 
-        // //trim priceSecond array to 59 entries every minute
-        // $this->poparrayTrimmer(99999, "priceSecond", -3);
-
-        // //per minute, add latest price to priceMinute array
-        // $this->poparrayTimer(0, 60, "priceMinute");
-        // //trim priceMinute array to 60 entries every 3600 seconds (60min) and save to DB and trim DB
-        // $this->poparrayTrimmer(3600, "priceMinute", -60, TRUE);
-
-        // //per hour, add latest price to priceHour array
-        // $this->poparrayTimer(0, 3600, "priceHour");
-        // //trim priceHour array to 24 entries every 24*3600 seconds (1day) and save to DB and trim DB
-        // $this->poparrayTrimmer(24*3600, "priceHour", -24, TRUE);
-
-        // //per 1day, add latest price to priceDay array
-        // $this->poparrayTimer(0, 24*3600, "priceDay");
-        // //trim priceDay array to 30 entries every 24*3600 seconds (1day) and save to DB
-        // $this->poparrayTrimmer(7*24*3600, "priceDay", -7, TRUE);
        
-        // //debug
-        // $this->o = '';
-        // $this->p = '';
-        // // $this->loop->addPeriodicTimer(1, function() { 
-
-        // //     echo microtime() . "\n"; 
-
-        // // });
     }
-
-    public function onOpen(ConnectionInterface $conn) {
+    public function onOpen(ConnectionInterface $conn) 
+    {
         //val
         $userSess = $conn->Session->all();  
          
@@ -466,7 +294,8 @@ class Pusher implements WampServerInterface, MessageComponentInterface
           
         // }
     }    
-    public function onSubscribe(ConnectionInterface $conn, $topic) {             
+    public function onSubscribe(ConnectionInterface $conn, $topic) 
+    {             
         echo "Subscribe:\t[Client #" . $conn->resourceId . "] [Topic: " . $topic->getID() . "].\n";
         $userSess = $conn->Session->all();
 
@@ -488,23 +317,26 @@ class Pusher implements WampServerInterface, MessageComponentInterface
                 $this->users[$userSess["userid"]]["usertopic"] = &$topic;
 
                 //debug
-                echo "Usertopic saved to userarray:\n";
-                
+                echo "Usertopic saved to userarray:\n";                
                 
             }
             //debug
             var_dump($this->users[$userSess["userid"]]["usertopic"]->getIterator());
         }
+        else if (!$topic->getID()) { //no topic (maybe client not logged in)            
+        }
         else { //subscribing to not-valid topic
             echo "Invalid Topic. Closing connection...";
-            $conn-close();
+            $conn->close();
         }
     }
-    public function onPublish(ConnectionInterface $conn, $topic, $event, array $exclude, array $eligible) {
+    public function onPublish(ConnectionInterface $conn, $topic, $event, array $exclude, array $eligible) 
+    {
         // maybe chat
         $conn->close();
     }
-    public function onCall(ConnectionInterface $conn, $id, $topic, array $params) {
+    public function onCall(ConnectionInterface $conn, $id, $topic, array $params) 
+    {
         $popid = $topic->getId(); 
 
         echo "RPC:\t\t[Client #" . $conn->resourceId . "] [Topic: " . $topic . "]\n\t\t[Function: " . $params[0] . "] [Subfunction: " . $params[1] . "].\n";
@@ -633,52 +465,14 @@ class Pusher implements WampServerInterface, MessageComponentInterface
                 return $conn->callResult($id, $callResult); 
         }
         //all calls do this at the end:
-
     } 
-    public function onUnSubscribe(ConnectionInterface $conn, $topic) {
-    }  
-    public function onMessage(ConnectionInterface $from, $msg) {
-
-    }
-    public function onClose(ConnectionInterface $conn) {// HERE RUN GARBAGE COLLECTION ON USER ARRAY
-        // $userSess = $conn->Session->all();
-        // $thisuser = &$this->users[$userSess["userid"]];
-        
-        // if ($thisuser["usertopic"]->count() <= 1) {
-        //     $thisuser["ownedpops"]["1"] += 1;
-        //     $thisuser["ownedpops"]["2"] = 37;
-        //     $thisuser["ownedpops"]["3"] = 37;
-        //     $thisuser["ownedpops"]["4"] = 37;
-            // try
-            // {   
-            //update user data
-                // $this->updateUsers2 = $this->db->prepare(
-                // "   INSERT INTO users_own_pops (users_id, pops_id, quantity)
-                //     VALUES (:userid, :pops_id, :quantity)
-                //     ON DUPLICATE KEY UPDATE quantity = :quantity "
-                // );
-                // foreach ($thisuser["ownedpops"] as $k=>$v) { //ownedpops
-                //     $this->updateUsers2 -> execute(array(
-                //         ':userid'   => $userSess["userid"],
-                //         ':pops_id'  => $k,
-                //         ':quantity' => $v   
-                //     ));
-                // }
-
-            // }
-            // catch(PDOException $e)
-            // {
-            //     echo $e->getMessage();
-            // }    
-
-            // remove user from userarray  
-
-        // }
-        //debug
-        // echo "\nConn #" .$conn->resourceId. ": disconnected.\nRemaining on userarray usertopic: ";
-        // print_r($thisuser["usertopic"]->count());
-        // var_dump($thisuser["usertopic"]->getIterator());
+    public function onUnSubscribe(ConnectionInterface $conn, $topic) 
+    {
+    }     
+    public function onClose(ConnectionInterface $conn) 
+    {
     }       
-    public function onError(ConnectionInterface $conn, \Exception $e) {
+    public function onError(ConnectionInterface $conn, \Exception $e) 
+    {
     }    
 }
